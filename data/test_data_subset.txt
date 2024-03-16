@@ -1,0 +1,5000 @@
+r pack route gui_hstack_infoer s
+msg hsl s
+msg linuxjoystick floatatom select bng
+bng openpanel msg mtl/sampleFiler print
+r msg t msg pack msg
+nbx enttec_out
+select b outlet f
+r msg pdp_theonice~ floatatom s
+msg symbol d-modes canvas
+floatatom pdp_binary floatatom
+r pack msg state_saving_module/textfile
+r t f msg s
+abc_env_noise abc_2d_syn_decorrelation1~, abc_2d_decoder1~, abc_quadriout
+r msg t t s
+loadbang msg s
+inlet route msg int
+inlet route bng msg hsl floatatom
+r pack msg textfile
+r route route unpack floatatom s
+ctlin phiscale clip msg s
+receive t list demux list_prepend print
+bng list list list list msg
+msg cyclone/coll print
+vsl *~ dac~
+inlet sel msg floatatom expr outlet
+gemhead colorRGB alpha translateXYZ rotate circle
+bng t msg zexy/nop delay bng
+declare declare declare declare
+msg pdp_rec~ floatatom
+msg msg pdp_netsend
+msg canvas pack msg
+bng msg floatatom s
+r msg delay t msg
+msg pdp_qt floatatom
+msg fluid.knnregressor route canvas fluid.dataset
+r msg plts~ *~ outlet~
+hsl rev3~, vcf~ vcf~ *~ outlet~
+hsl * floatatom
+inlet mtof phasor~ -~ wrap~ outlet~
+s declare text tgl cyclecount
+r == * pack route ctlout
+msg msg mp3cast~
+inlet * pack outlet
+inlet msg floatatom sequencerspacecountspacetwentyspaceoddspaceandspacefourspace f send
+msg coll floatatom
+r pack msg state_saving_module/textfile
+inlet select msg outlet
+inlet msg list_prepend list_trim trigger outlet
+r f t msg + tabwrite
+r canvas
+r msg seq t s
+inlet~ lzr/mixstrip~ outlet~
+msg hid route route tgl
+floatatom 3dp_view 3dp_view 3dp_light
+inlet canvas unpack f sel outlet
+r floatatom outlet msg msg stream_check
+r~ canvas +~ *~ dac~
+catch~ outlet~
+r tgl metro radioOrganCtrl floatatom
+inlet route t msg *~ outlet~
+inlet route route symbol msg s
+r~ sdTapeHead~ s~
+inlet~ *~ outlet~
+canvas arduino spigot route route canvas
+r t f + outlet
+floatatom msg s
+r random / d-autotune * floatatom
+inlet unpack pack canvas
+tgl sel msg writesf~
+inlet trigger flatspace/arraysize * outlet
+inlet lop~ *~ +~ pdkez_switcher outlet~
+loadbang msg select msg s
+r route route s
+r r r
+msg s
+bng t canvas msg fluid.plotter listbox
+canvas env~ canvas - -
+r t delay f s
+bng 20 t expr pack msg
+floatatom osc~ expr~ dac~
+r == *~ outlet~
+inlet select msg outlet
+canvas floatatom * floatatom
+loadbang onebang hcs/folder_list msg mtl/sampleFiler cyclone/prepend
+nbx enttec_out
+rj_text r canvas route
+t f pack vsl cnv
+inlet unpack pipe s
+r sel f s
+r list zl pack msg
+pointer cnv gyre/gyre.stereoloop~ canvas inlet~ *
+loadbang msg canvas
+msg cycle floatatom
+msg outlet
+r floatatom bng
+inlet msg oggamp~ throw~
+loadbang msg text
+loadbang msg midi-controller s
+inlet spigot pack outlet
+r pack line~ *~ throw~
+inlet f outlet
+r bng sineMix *~ pan s~
+hsl *~ *~ *~ s~
+canvas hid route route floatatom
+r spigot spigot s
+r playsf sineMix *~ pan s~
+r f floatatom
+r voice_rhodey *~ outlet~
+r part1~ gatt-st~
+canvas *~ *~ fluid.melbands~ unpack vsl
+inlet route trigger value canvas send
+inlet select msg outlet
+bng text bng floatatom r text
+r s
+two_saws throw~
+notein pack spigot canvas trace s
+msg msg s
+r msg s
+canvas nbx inlet~ dac~ i *
+r msg pd~ *~ throw~
+r != spigot t v nbx
+msg canvas *~ dac~
+loadbang delay msg
+r == spigot msg s
+floatatom makenote print
+inlet gate del t msg s
+tgl msg
+r t spigot bng t msg
+r moses b msg multiplex outlet
+inlet seq-rec outlet
+r msg msg t outlet
+r declare
+inlet route t list text
+inlet route route s
+r sel t msg s
+inlet random outlet
+r +~ vd~ +~ outlet~
+r dbtorms pack line~ *~ canvas
+inlet f sel f msg s
+msg outlet
+inlet del t msg s
+fluid.bufpitch canvas f
+tgl msg s
+inlet spigot outlet
+canvas 0 <
+loadbang symbol msg
+r delread~ -~ -~ +~ delwrite~
+inlet gate unpack s
+msg t msg pointer append
+bng list_prepend list_append t print
+msg canvas splitfilename print
+r~ canvas prvu~ vu
+loadbang tgl msg tabwrite
+r route tgl *~ s~
+inlet t f msg fluid\.bufcompose
+r moses + - s
+msg route bng
+adc~, *~ s~
+r pack gate unpack s
+inlet openpanel msg t msg outlet
+inlet canvas *~ *~ outlet~
+r bng presets route s
+r~ sdTapeHead~ throw~
+inlet unpack hsl pack msg outlet
+inlet t del bng tabwrite~
+loadbang t f t * canvas
+inlet unpack f outlet
+r msg spigot jrange msg outlet
+floatatom s
+declare declare canvas
+inlet list_split list_prepend list_prepend list_trim outlet
+delread~ +~ -~ -~ *~ delwrite~
+msg hidin route moses spigot ctlout
+inlet t random pack outlet
+inlet outlet
+msg msg xrecord~ snapshot~ floatatom
+set inlet gyre/gyre.stereoloop~ cnv inlet~ *
+r t t bng js print
+msg pack line floatatom
+r msg
+tgl samp-ctlr~ t /
+loadbang f msg
+inlet s
+expr loadbang f list-len list-splat inlet
+r * osc~ *~ abs-oscilloscope-short
+r msg midiout
+r multiplex outlet
+route outlet~ nbx canvas inlet~ *
+msg 6_max print
+r~ floatatom text text
+nbx enttec_out
+msg bng
+route s
+msg fluid.kdtree print
+canvas canvas adc~ canvas pitchtracker-4,
+bng t msg list_prepend list_trim s
+msg phasor~ samphold~ tabwrite~
+bng fluid.bufmfcc fluid.bufstats fluid.bufflatten
+nbx enttec_out
+floatatom mtof floatatom lp6_butt~ gainvu~ dac~
+inlet t msg spigot expr tabwrite
+bus_master enttec_out
+inlet spigot bng canvas *~ outlet~
+inlet~ spigot~ *~ clip~ *~ outlet~
+bng msg s
+floatatom trg bng noteout text
+gemmouse sel msg stdout
+r gate unpack s
+nbx f * moses outlet
+bng ptl/random-echoRobot~ mtl/out~
+r~ *~ *~ *~ outlet~
+inlet t canvas GEMglPointSize translateXYZ circle
+bng t bng msg canvas play-lists,
+inlet t f canvas
+floatatom msg s
+msg gemhead pix_image alpha translateXYZ pix_draw
+inlet~ *~ canvas canvas *~ outlet~
+inlet msg list_prepend list_trim trigger outlet
+r t spigot t msg s
+loadbang t f t outlet
+tof/imagebang spigot t msg t outlet
+inlet t msg s
+msg floatatom f pack msg line
+inlet expr~ outlet~
+hradio select msg * osc~ tabwrite~
+r pack unpack t s
+msg route symbolatom bng
+ctlin change spigot t / s
+loadbang f t glock_voice
+r msg delay t msg
+r t tabwrite~
+loadbang f msg soundfiler / s
+loadbang 0 *~ *~ *~ dac~
+receive demux max t s
+floatatom ehu/gem/track ehu/gem/texture
+r pack msg state_saving_module/textfile
+r tgl s
+r t symbol pack msg
+inlet clone spigot print
+msg route bng
+msg keyboard route tgl
+inlet mod sel f sel outlet
+r route msg route msg s
+inlet route lzr/pp outlet
+tgl joystick route tgl
+midi-colors tgl bng
+loadbang msg floatatom msg abc_envfollower~ abc_amp_scope
+canvas declare canvas declare
+r ctlout
+r spigot t f + outlet
+r bng sineMix hsl
+msg hidio unpack symbolatom
+adc~ *~ canvas throw~
+inlet t t msg s
+msg tabplay~ monoChannel~ dac~
+msg bonk~ outlet
+r list_prepend s
+inlet outlet
+inlet t f canvas
+msg mouse route tgl
+text ../other_patches/volumeandpan~, *~ outlet~
+tgl text text floatatom canvas tgl
+vsl msg s
+loadbang msg floatatom / floatatom
+msg msg msg msg msg outlet
+inlet tgl
+inlet~ clip~ bpbuzz~ outlet~
+r switch~
+r override * vsl grids, bng
+inlet moses & select msg print
+canvas *~ dac~
+r t mix.switch.ramp~ outlet~
+r msg t t s
+floatatom next bng
+vradio canvas s
+inlet route canvas outlet
+inlet route route t s
+r spigot sel t msg s
+loadbang msg pack line~ *~ throw~
+floatatom t array array
+msg r fid_multiplex
+inlet~ *~ outlet~
+inlet route t msg ../sequence-player
+inlet OSCroute s
+osc~ s~
+inlet seq-sample-player throw~
+vsl floatatom s
+r msg sampleplayer s
+bng text fluid.bufampfeature canvas f
+loadbang msg msg prvu~ vu
+ctlin floatatom receive send
+r bng bng pack prepend msg
+vsl floatatom
+r t list filltable
+r msg
+floatatom msg pix_opencv_motempl route unpack floatatom
+msg floatatom moses i floatatom
+r msg t msg pack msg
+r msg nbx t pack msg
+inlet msg route s
+inlet t list outlet
+r s
+inlet msg iemguts/sendcanvas
+inlet hradio list_prepend route mayor bng
+r savepanel msg text
+inlet unpack canvas msg route outlet
+msg symbolatom
+r t s
+r~ canvas +~ *~ outlet~
+canvas bng float mod hradio outlet
+msg pool print
+r msg unpack tabwrite
+r floatatom r
+r msg t msg pack msg
+floatatom t s
+inlet sel t msg outlet
+inlet sel outlet
+tgl dsp floatatom
+canvas msg hidio canvas
+loadbang msg moses msg s
+canvas polygate~ s
+loadbang msg pdp_theorin~ s~
+inlet t f f floatatom
+inlet t f f floatatom
+r msg s
+s outlet r sel s +
+r pack savestate unpack s
+floatatom msg pix_opencv_hough_lines route unpack floatatom
+loadbang msg spigot t msg
+bng savepanel param.save
+inlet random outlet
+r msg mm_synth_mixer~ *~ mm_compressor~ outlet~
+catch~ outlet~
+msg f canvas canvas canvas outlet
+fad *~ panner throw~
+inlet t canvas canvas
+inlet t f f floatatom
+r f msg
+loadbang msg pack line~ *~ throw~
+inlet unpack floatatom route msg s
+r * floatatom msg envgen outlet
+tgl floatatom t sel bng
+notein mpx16 select bng creb/ti_hihat
+loadbang del t canvas
+nbx - * dbtorms max outlet
+inlet zexy/demultiplex list_append t t outlet
+adc~ *~ canvas
+r t msg multicycle route s
+inlet unpack s
+tgl gate~ s~
+r t spigot outlet
+get loadbang coords gyre/gyre.stereoloop~ inlet~ *
+delread~ -~ delwrite~
+msg makenote maxlib/rhythm floatatom
+r spigot s
+r pack msg reloaded/textfile
+msg pdp_help_input pdp_route pdp_blur s
+msg pds2l list2bytes bytes2any list_length floatatom
+loadbang msg vsl *~ dac~
+inlet unpack canvas canvas *~ outlet~
+floatatom pdp_opencv_contours_boundingrect route unpack floatatom
+ctlin / expr floatatom
+msg d-modes floatatom
+loadbang msg f expr outlet
+r sel msg s
+bus_master enttec_out
+bng t msg || floatatom
+inlet clone spigot print
+msg msg msg t
+inlet route lzr/pp outlet
+r pack savestate unpack s
+bng t msg || floatatom
+inlet route route s
+inlet s
+tgl pix_convolve pix_texture square
+osc~ *~ +~ delread4~ *~ outlet~
+osc~ Scope~
+msg ./powline floatatom
+netpd-r spigot outlet
+r pack msg textfile
+r int msg t mm_bclock~ s~
+msg floatatom vcf~, outlet~
+r pack savestate unpack s
+r msg nbx t pack msg
+bng msg delay msg s
+msg send
+msg hid route route tgl
+loadbang t delay msg spigot s
+msg hid route route tgl
+loadbang msg spigot bng s
+inlet route canvas outlet
+fruit/receive analog/parse route spigot route tgl
+hsl canvas +~ *~ prvu~ vu
+r t delay f outlet
+r t msg outlet
+inlet f > s
+inlet random spigot + spigot hradio
+r msg delay t msg
+r pack msg textfile
+msg xeq bng
+hsl abs_bigplayer1voice *~ *~ throw~
+osc~ mixer_patch dac~
+inlet vsl floatatom
+loadbang msg line~ *~ throw~
+throw~ r r canvas
+inlet list_trim spigot s
+r bng msg floatatom msg s
+r i msg s
+msg syphon print
+inlet t timer t tabwrite
+r pack savestate unpack s
+r random s
+hsl msg pdp_freeframe floatatom canvas
+inlet nbx spigot floatatom send
+msg loadbang t t floatatom s
+bng t msg textfile outlet
+inlet~ *~ *~ outlet~
+canvas fx/bubbler *~ throw~
+inlet canvas unpack f sel outlet
+bng msg
+vradio canvas s
+bng s
+inlet pack msg outlet
+r spigot f floatatom s
+inlet t f t tabwrite
+msg t outlet
+msg linuxjoystick floatatom select bng
+tgl spigot route route unpack floatatom
+r t tabread expr s
+r route t list_prepend list_trim s
+tgl f canvas floatatom outlet s
+r t msg outlet
+msg linuxjoystick floatatom
+canvas t canvas
+inlet t tabread t rad2deg s
+netpd-r sig~ *~ *~ +~ s~
+dac~ r r
+inlet route msg outlet
+inlet route msg outlet
+r f t msg + tabwrite
+inlet unpack hsl canvas *~ throw~
+r moses
+r _nslider-commun s
+ctlin msg v
+msg tinyseq + makenote noteout
+inlet~ *~ + * outlet~
+floatatom t * nbx s
+r openpanel msg text
+r msg delay t msg
+r commun s
+msg arduino spigot route canvas floatatom
+inlet~ chainLink chainLink chainLink chainLink throw~
+r symbol t t msg s
+vradio vradio bng t f tgl
+loadbang pack unpack s
+loadbang t t msg s
+bng canvas text
+r canvas seq-format-event seq t s
+msg netsend tgl
+floatatom * pack prepend msg send
+msg comport route floatatom
+loadbang bng t msg makefilename msg
+floatatom mod_seq bng
+r t spigot floatatom outlet
+fruit/receive route axlprocess
+RM2~ gatt~ rev3~ dac~
+pointer outlet~ text nbx inlet~ *
+r msg s
+inlet mod sel f sel outlet
+r msg s
+tgl msg
+msg syncjams route print
+lb msg vsl
+inlet t t max change s
+r if-last-3-is-zero msg
+floatatom t pack route s
+r int pack s
+r sel msg *~ s~
+catch~ *~ +compand~ hip~ *~ ../logic/record
+sel canvas nbx canvas inlet~ *
+inlet~ samp-ctlr~ tabwrite~
+msg readsf~ bng msg *~ dac~
+inlet del t msg s
+r gate s
+floatatom pdp_opencv_motempl pdp_xv
+bng msg s
+inlet msg midiout
+r route route canvas floatatom outlet
+floatatom msg s
+t declare quickmute
+floatatom metro counter route canvas
+text text ehu/splayer~ / canvas tgl
+inlet unpack s
+r msg mm_sample_slicer_revised~ outlet~
+inlet t b latch-notes outlet
+msg hid route route tgl
+tgl canvas vsl canvas canvas
+inlet moses moses trigger expr send
+r / f * floatatom s
+inlet routeOSC routeOSC routeOSC s
+inlet msg t msg trigger outlet
+msg floatatom msg abc_addsynth2~ abc_meter
+r / rngs_ensemble~ throw~
+msg symbol msg
+inlet hradio list_prepend route chromatic bng
+inlet random outlet
+r sel f knob f s
+r~ specFlatness~ s
+r i / floatatom
+inlet list-find t list-idx outlet
+osc~ pong~ hip~ balance.mmb~ *~ dac~
+r f t msg + tabwrite
+bng mtl/player~ mtl/nbx~
+r delay t msg mtl/player~ floatatom
+r * + / nbx
+tgl canvas vsl canvas canvas
+bng openpanel msg mtl/sampleFiler cyclone/prepend
+inlet mod sel list list_trim outlet
+loadbang msg spigot outlet
+msg hid unpack symbolatom
+bng msg
+r~ *~ *~ *~ motex/pan~ s~
+pad netpd-x
+r spigot t s
+r spigot msg canvas spigot s
+tgl metro bng tabwrite~
+vsl tabwrite floatatom
+loadbang msg int loop msg s
+loadbang msg floatatom msg s
+r random == *~ outlet~
+r floatatom
+declare bng ehu/gem/win
+receive t demux unpack s
+bng onebang hcs/folder_list msg mtl/sampleFiler floatatom
+t canvas cnv
+msg s
+bng onebang hcs/folder_list msg mtl/sampleFiler cyclone/prepend
+r + s
+msg j.cue s
+inlet moses outlet
+loadbang delay t msg switch~
+r * pack t msg outlet
+r f s
+r tgl msg s
+msg msg s
+r t adssr~ *~ outlet~
+tgl metro bng floatatom line +
+loadbang msg s
+r * int == sel bng
+msg coll zl route s
+r pack msg textfile
+r delay t msg mtl/player~ bng
+msg hid spigot bng
+msg s
+inlet sel t msg spigot outlet
+msg pickover floatatom
+msg floatatom bng msg *~ dac~
+routeOSC floatatom hsl
+msg list2bytes bytes2any unpack floatatom
+tgl dac~ r r sel
+r t msg
+cam-grupo1-tocador~ if-last-3-is-zero msg
+r sel spigot spigot s
+r part1~ s~
+r~ chainLink chainLink s
+r random-stereo-phase soundoutput
+canvas pdp_scale pdp_affine pdp_theonice~ floatatom s
+msg gemwin
+floatatom motormix_LCDgraph
+r msg tabread floatatom
+floatatom + floatatom
+msg symbol hsd_biquad_coefficients floatatom
+notein canvas canvas g_vol2 outlet~
+loadbang msg st-pureverb dac~
+r t / * s
+r line s
+r pack line s
+r f sel msg pack s
+inlet list t s
+tgl msg msg trigger outlet
+loadbang msg knob * *~ outlet~
+hsl zrev1~ outlet~
+tgl msg abc_2d_decoder3~ abc_meter
+r canvas s
+ctlin vsl s
+r phiscale pack msg mtl/player~ mtl/nbx~
+canvas spigot bng
+bng canvas
+r route route route route MIDI/assign
+ctlin 0.7874 s
+r msg delay t msg
+r canvas clip s
+inlet moses sel s
+r randrange nbx
+msg msg
+loadbang t delay msg shell
+vradio canvas s
+r select msg t pack msg
+r random floatatom s
+symbolatom msg s
+inlet~ env~ outlet
+r t lister spigot canvas s
+inlet gate unpack s
+vsl vols~ vu~
+r canvas *~ *~ outlet~
+inlet unpack - * expr outlet
+r t spigot pack line outlet
+t line~ cnv canvas inlet~ *
+floatatom msg pix_opencv_motempl route unpack floatatom
+r f t tabwrite
+param.get change msg s
+tgl mm-out
+r symbol msg readsf~ *~ outlet~
+r route pipe tgl ../logic/randomRouter2 s
+inlet t msg array msg outlet
+inlet route canvas outlet
+r msg nbx t pack msg
+r spigot s
+inlet t list_split list_split list outlet
+r msg soundfiler t s
+msg tab_rifft bng
+r f t >> + s
+inlet pack line outlet
+r f t msg + tabwrite
+r pack savestate unpack s
+canvas *~ canvas delwrite~
+msg s
+inlet msg unpack s
+tgl metro bng
+msg gemhead pix_image alpha translateXYZ pix_draw
+inlet unpack floatatom route msg s
+bng canvas cyclone/Bucket floatatom
+inlet unpack poly pack route pianoVoice
+bang~ spigot msg tabread tabwrite
+delread~ *~ lop~ delwrite~
+catch~ *~ csound~ /~ /~ outlet~
+canvas comport canvas canvas spigot print
+r pack savestate unpack s
+r route route unpack floatatom s
+canvas fluid.ampgate~ biquad~ clip~ *~ dac~
+inlet route t msg gemwin
+inlet pack line s
+r msg t t s
+inlet~ dac~
+r moses t msg motex/shuffle outlet
+r route change s
+r sel spigot spigot s
+r controls playback throw~
+msg floatatom
+loadbang msg s
+sysexin floatatom
+r pool print
+r t select msg s
+LFO~ *~ delwrite~
+msg floatatom tabwrite
+msg pdp_v4l pdp_opencv_athreshold pdp_xv
+r sel msg symbol msg s
+r pack savestate unpack s
+r f pack s
+r chainLink chainLink chainLink throw~
+receive petal send
+r s
+msg pong floatatom canvas tgl
+vsl dbtorms *~ outlet~
+inlet unpack canvas msg route outlet
+inlet canvas outlet
+inlet gate del t canvas
+r pack line~ *~ throw~
+t spigot t msg
+inlet unpack floatatom route msg s
+r spigot spigot s
+r spigot s
+r unpack * cos * floatatom
+tgl msg mm_seq_editor msg msg s
+declare declare declare
+msg coords bng loadbang msg *
+r canvas list unpack s
+sel canvas canvas dac~ i *
+inlet~ samphold~ *~ outlet~
+inlet~ *~ outlet~
+tgl spigot abs_pitchshift1 canvas *~ throw~
+inlet *~ pd~ *~ throw~
+msg s
+inlet / canvas *~ *~ outlet~
+adc~ fiddle~ floatatom
+loadbang bng msg floatatom s
+inlet msg ossia.remote
+r % t t tabwrite
+canvas r r
+inlet + pack line outlet
+bng t msg line colorRGB rectangle
+floatatom makenote noteout
+r sel f knob f s
+inlet msg msg msg
+r _slider-commun s
+canvas is_patch_editor_path_declared text loadbang select msg
+floatatom route t list_prepend list_trim outlet
+inlet unpack floatatom route msg s
+msg linux.freesound print
+r vsl rev3~ *~ dac~
+r sel t msg
+msg floatatom msg fluid.bufnoveltyslice~ array floatatom
+canvas declare u_dispatch
+r == t && msg
+inlet~ *~ outlet~
+inlet canvas outlet~
+tgl canvas canvas *~ send~
+inlet route t list text
+inlet msg outlet
+inlet t f f floatatom
+r pack msg state_saving_module/textfile
+inlet~ rev1~ wetDry~, outlet~
+msg maxlib/netserver outlet
+r != spigot sel msg
+loadbang msg hip~ *~ pan~ outlet~
+loadbang metro t s
+r sel msg spigot unpack s
+r ../../../controller/cc-filter ../tracks/drum-3-delay
+inlet canvas spigot floatatom
+bng t msg j.cue s
+loadbang t msg nbx
+r msg tabwrite
+r ys.loopcounter t array
+inlet *~ +~ outlet~
+r unpack + / s
+msg maskxor floatatom
+inlet t gate t f outlet
+r route canvas route ctlout
+inlet /
+loadbang msg cyclone/Scope~
+inlet t * + floatatom tabwrite
+outlet~ declare
+adc~ *~ *~ dac~
+inlet / * outlet
+r msg t t s
+delread~ +~ -~ *~ delwrite~
+bng t bng msg gen-fun canvas
+tgl canvas maxlib/wrap floatatom
+delread~ dac~
+r canvas loadbang sampler *~
+funnel floatatom floatatom floatatom
+msg pdp_v4l2 pdp_vloopback floatatom
+loadbang msg spigot t msg
+msg hidin route route tgl send
+r pack savestate unpack s
+msg tabread4~ *~ *~ dac~
+r == spigot outlet
+tgl sel msg writesf~
+adc~ gate~ s~
+bng msg
+floatatom pix_opencv_motempl route unpack floatatom
+text r text r inlet
+inlet list outlet
+r radioOrganCtrl floatatom
+floatatom t pack cyclone/prepend list_prepend s
+inlet route t msg textfile
+r ctrl sel bng msg s
+autoscale floatatom k_range s
+inlet t f pack s
+loadbang msg - clip floatatom
+msg vsl canvas / canvas s
+s msg
+r msg line outlet
+adc~ tabwrite~
+loadbang tgl metro bng s
+msg mpu6050rpi print
+r msg gate~ space1~ dac~
+r spigot pipe s
+msg pdp_xv route msg pdp_shape floatatom
+r noteout
+inlet~ *~ -~ outlet~
+sig~ -~ *~ tabwrite~
+msg csound6~ msg
+r chainLink chainLink chainLink s
+r f t tabwrite
+hsl *~ +~ canvas outlet~
+catch~ bp~ canvas soundoutput
+inlet *~ outlet~
+inlet relay t msg s
+floatatom r
+inlet unpack floatatom canvas msg outlet
+tgl sel msg gate~ space1~ dac~
+inlet unpack floatatom route msg s
+inlet ../../common/step-seq-sel-3 t msg ../../common/step-seq-player
+msg trigger bng
+r expr msg line~ *~ outlet~
+inlet unpack prepend msg outlet
+catch~ throw~
+r f mm_xfade lop~ *~ canvas
+inlet unpack floatatom route msg s
+bng delay msg
+bng msg msg
+tgl canvas makenote noteout
+msg hidin route floatatom
+msg canvas floatatom
+r random s
+t t
+msg j.cue canvas c.menu msg s
+r t t msg pack s
+tof/param msg line~ tof/crossfade~ outlet~
+noise~ hip~ bp~ *~ outlet~
+r symbol pack msg
+r bng
+r / * nbx + nbx
+inlet spigot outlet
+inlet * floatatom
+r t msg f outlet
+r msg s
+r dbtorms pack line~ *~ outlet~
+floatatom t ps.tabwrite8
+r msg s
+r canvas clip s
+inlet ../../../common/step-seq-sel-3 spigot sel ../../../kp3/pad-off
+floatatom div change msg iemguts/canvasselect print
+r spigot s
+nbx enttec_out
+floatatom pdp_affine pdp_theonice~ floatatom s
+r + float + floatatom outlet
+inlet spigot outlet
+inlet~ delwrite~
+loadbang delay v select outlet
+r bng + floatatom msg
+nbx pack line outlet
+tgl msg
+nbx pack list list_append list_trim outlet
+vsl dbtorms canvas dac~
+msg mtl/player~ *~ *~ throw~
+ctlin sel tgl s
+msg spatosc tgl
+loadbang bng msg i floatatom
+r t delay f mod s
+inlet msg outlet
+tgl metro counter floatatom
+r pack savestate unpack s
+r lop~ outlet~
+r~ *~ s~
+loadbang msg tgl s
+msg cyclone/coll floatatom
+r~ *~ s~
+r msg msg
+canvas tgl
+s s print symbol
+nbx canvas bng canvas *~ outlet~
+inlet t msg s
+r chainLink chainLink chainLink throw~
+nbx tabread4 nbx
+receive outlet
+r msg nbx t pack msg
+r f msg textfile
+msg s
+r chainLink chainLink s
+bng msg
+r sssad s
+r~ env~ - vu
+r msg t msg pack msg
+t line~ makefilename gyre/gyre.stereoloop~ inlet~ *
+r savepanel msg text
+inlet separator colorRGB alpha polygon
+routeOSC msg *~ *~ *~ bng
+loadbang msg tgl
+loadbang msg t + i floatatom
+msg hid route route floatatom
+abc_gain abc_audiotester~ dac~
+canvas canvas msg multicycle s
+msg msg metro bng
+ks2 throw~
+inlet t list_append list_append text
+inlet route t msg gemwin
+canvas fx/bubbler env~ s
+unpack floatatom
+r canvas lop~ throw~
+loadbang t msg s
+adc~ canvas floatatom
+tgl spigot s
+r msg t msg pack msg
+r s
+r route s
+s *~ declare floatatom t s
+vsl * + floatatom
+text bng msg fexpr~ /~ dac~
+r msg nbx t pack msg
+key floatatom bng mm-ar~ *~ output~
+loadbang msg qlist floatatom
+r spigot t / s
+r pack msg state_saving_module/textfile
+adc~ ys.snapshot s
+r toca-barco~ gatt~ dac~
+r track1 *~ canvas dac~
+tof/param expr~ expr~ +~ +~ delwrite~
+inlet t random change canvas print
+inlet t select msg outlet
+rpole~ declare writesf~ floatatom msg
+r abc_2d_fx_ringmod7~ abc_2d_decoder7~ dac~
+msg counter floatatom
+floatatom cnv floatatom
+inlet expr outlet
+r / msg
+r msg s
+r list_prepend list_trim msg clone
+r openpanel msg soundfiler floatatom s
+r canvas unpack nbx
+inlet t f t tabwrite
+r +compand~ hip~ *~ ../logic/record
+inlet t ctlout
+r list_split sel msg t s
+msg unpack f pack outlet
+inlet route bus
+ctlin tgl s
+r pack savestate unpack s
+msg hid route route floatatom
+r s
+r spigot spigot s
+floatatom + floatatom
+r pool print
+r notes t msg s
+hsl *~ hip~ lop~ *~ delwrite~
+msg mouse route tgl
+tgl sel msg gate~ outlet~
+r t sel msg s
+bng t play-lists,
+r unpack pack line mtof floatatom
+msg tab_div bng
+r pack msg state_saving_module/textfile
+r msg t msg pack msg
+r unpack outlet
+loadbang f msg
+msg shell print
+bus_master enttec_out
+r gemhead pix_image alpha translateXYZ pix_draw
+hsl * *~ canvas throw~
+inlet * floatatom * + floatatom
+r msg text
+msg canvas dac~
+msg f trigger msg fluid.dataset print
+hsl floatatom
+inlet~ canvas crossfade~, crossfade~, outlet~
+r bng pan s~
+tgl msg s
+msg pool print
+msg gainpan~ *~ *~ dac~
+r + mtof pack s
+r phiscale
+r msg t msg pack msg
+bng t msg
+inlet list fc_process t outlet
+r symbol pack outlet
+r route canvas tgl *~ s~
+tgl msg abc_2d_decoder3~, abc_meter
+r t * * i msg
+r f + outlet
+inlet route canvas outlet
+msg arduino route route tgl
+msg line hsl
+msg floatatom noteout
+msg lister print
+msg readsf~ tabwrite~
+canvas canvas outlet
+floatatom trg msg spigot noteout
+canvas fifop t canvas ./particular/grains~ outlet~
+r f t tabwrite
+inlet - floatatom t pack msg
+sampler *~ dac~
+loadbang msg s
+r pipe spigot pipe s
+floatatom slg.gain1~ slg.gain8~ send~
+inlet msg t msg outlet
+bng msg
+t uzi t zl pack tabwrite
+r t msg s
+r pack savestate unpack s
+msg phasor~ *~ dac~
+loadbang msg floatatom canvas outlet~
+inlet unpack floatatom
+bng s bng
+r sel msg *~ tabwrite~
+inlet tgl sel t msg tabwrite~
+f canvas outlet metro inlet~ *
+vradio canvas outlet
+nbx simlight
+tgl msg pix_opencv_morphology pix_texture square
+loadbang msg floatatom msg s
+r msg delay t msg
+bng openpanel msg soundfiler
+adc~ *~ outlet~
+inlet f sel f msg s
+hsl canvas +~ *~ dac~
+r pack savestate unpack s
+r point
+bng preset_coral vsl floatatom
+inlet sel outlet
+r expr + max tabwrite
+r s vsl floatatom
+hsl metro euclid floatatom
+floatatom text msg r mod
+floatatom msg pix_opencv_hough_circles route unpack floatatom
+r floatatom
+r f pack msg state_saving_module/textfile
+keygrid, oscformat sendOSC
+== floatatom r
+r t tabwrite
+r msg nbx t pack msg
+bng metro pdp_yqt pdp_scale pdp_theonice~ floatatom
+loadbang msg hradio canvas bng
+r _rrad.drumseq-h1
+loadbang msg bonk~ unpack floatatom
+inlet~ crossfade~ outlet~
+notein spigot stripnote select msg midiout
+r *~ +~ *~ outlet~
+bng t symbol msg print
+msg outlet
++ canvas canvas canvas msg *
+r bng t f msg state_saving_module/textfile
+inlet play_track
+loadbang msg fiddle~ route unpack floatatom
+loadbang msg coll pack route s
+r t f s
+bng openpanel msg pdp_yqt pdp_underwatch pdp_xv
+inlet t msg canvas outlet
+*~ floatatom floatatom tgl
+canvas t t canvas vsl floatatom
+msg pix_video pix_info, pix_buf pix_texture floatatom
+r msg vline~ *~ *~ dac~
+r chainLink throw~
+inlet~ -~ delwrite~
+r route route s
+floatatom msg pix_opencv_haarcascade route unpack floatatom
+r bob~ *~ vsl canvas line~
+r msg delay t msg
+r msg midi-bang-control outlet
+hsl floatatom t * *~ dac~
+r vradio + floatatom floatatom msg
+unpack floatatom s
+inlet f t spigot outlet
+inlet * moses pow outlet
+r pack msg textfile
+r canvas delayaa~
+r / floatatom
+r f msg sampleplayer s
+inlet msg route s
+inlet bng spigot bng send
+r t msg elooper~ timer nbx
+r msg pdkvabs/dklooper~ outlet
+r msg s
+dumpOSC OSCroute s
+inlet t tabread t rad2deg outlet
+r nbx spigot floatatom f v
+vsl gainvu~ vu floatatom
+adc~ nbx text canvas
+inlet t + outlet
+hsl mm-out
+canvas s~
+r sel msg s
+msg readsf~ *~ dac~
+r pack msg state_saving_module/textfile
+loadbang msg hsl s
+udpreceive unpackOSC routeOSC msg coll print
+fft~ cyclone/cartopol~ cyclone/poltocar~ ifft~
+bng unnamed_object bng mux-5
+msg t msg msg * floatatom
+msg fluid.dataset bng fluid.ds2text
+r router4, send
+r dbtorms floatatom
+t nbx nbx outlet~ inlet~ *
+loadbang samplerate~ * msg s
+inlet t msg canvas outlet
+r chainLink chainLink throw~
+msg csound6~ msg
+bng msg canvas floatatom canvas hradio
+tof/param canvas tof/crossfade~ outlet~
+catch~ hip~ canvas canvas *~ throw~
+r bang f * msg outlet
+msg unpack and-3 floatatom floatatom bng
+canvas mod04_kpa~ s~
+r slg.tripartial~
+bng f msg tcpserver unpack floatatom
+inlet sel f msg outlet
+r spigot t f + outlet
+msg unpack decoder floatatom
+inlet s
+loadbang delay v select outlet
+msg msg soundfiler floatatom s
+bng msg electribe/notes
+text *~ r floatatom s
+r dac~
+r sel msg spigot outlet
+r delay msg s
+msg hid route route floatatom
+msg *~ cnv canvas msg *
+msg gemhead pix_image alpha translateXYZ pix_draw
+pointer outlet~ msg outlet~ inlet~ *
+bng openpanel sampbufs~ floatatom
+floatatom msg line~ ./wscauchy~ ./outputc~
+inlet s
+msg hid route route floatatom
+r msg s
+inlet rotateXYZ outlet
+r > msg s
+floatatom (~) panorama dac~
+msg sampphase~ oscope~
+r == spigot s
+floatatom p50 expr~ vd~ expr~ delwrite~
+r msg t msg pack msg
+loadbang f pack msg
+r route msg s
+inlet unpack f outlet
+loadbang msg msg prvu~ vu
+r r r
+inlet route t msg ../pattern
+inlet t t v max floatatom
+inlet list msg outlet
+r t route prepend OSC/OSCsender
+loadbang f t msg
+inlet unpack floatatom route msg s
+r mod canvas hip~ outlet~
+bng metro pack msg s
+s declare
+dumpOSC OSCroute print
+r pipe randf bondo expr s
+inlet~ *~ outlet~
+inlet unpack msg line~ *~, outlet~
+inlet unpack floatatom route msg s
+inlet select msg outlet
+r f pack msg reloaded/textfile
+r s
+r route s
+inlet route route unpack float s
+r spigot spigot s
+loadbang msg circle
+inlet clip + s
+r canvas color text3d
+r canvas + floatatom
+route - * t
+inlet~ *~ +~ min~ cnv
+msg msg pix_opencv_threshold pix_texture square
+loadbang msg tgl msg s
+inlet unpack / - pack curve
+r route canvas tgl *~ s~
+r pack savestate unpack s
+msg floatatom t gatte~ space1~ dac~
+inlet bng spigot bng outlet
+msg metro pdp_v4l pdp_mgrid floatatom
+msg trigger floatatom bng
+inlet route sel outlet
+r msg delay t msg
+r msg print
+inlet vsl floatatom colorRGB square
+vsl t *~ +~ *~ outlet~
+msg poly pack route simple tgl
+inlet route msg gemwin
+r m_scale phasor~ samphold~ *~ outlet~
+msg pack unpack floatatom
+inlet~ c_xfade outlet~
+inlet t s
+msg hid route route tgl
+msg fruit/send2
+r msg delay t msg
+floatatom s
+msg canvas fluid.bufstats array unpack floatatom
+msg midisettings route route route print
+mm-digital canvas mm-filter~ mm-reverb~ dac~
+s~ bng bng declare
+r t t msg s
+r t outlet
+inlet unpack canvas msg route outlet
+osc~ *~ tabwrite~
+r floatatom clip floatatom
+gatte-st~ r~ r
+receive msg s
+inlet route s
+r~ dac~
+notein stripnote floatatom select t bng
+loadbang msg gemwin
+r t t msg s
+r sel msg s
+loadbang msg outlet
+loadbang msg
+r canvas cyclone/prepend list send
+r f * f s
+loadbang 255 canvas msg s
+r symbol msg s
+udpreceive unpackOSC pipelist s
+inlet t pack route outlet
+loadbang t getdir msg soundfiler
+inlet canvas
+r clip - * floatatom
+gemhead translateXYZ pix_image pix_texture square
+msg pdp_theonice~ floatatom
+hradio msg hid route route tgl
+r duck~ *~ canvas throw~
+canvas outlet
+r f t tabwrite
+r bondo expr send
+inlet~ -~ delwrite~
+msg hidio canvas route route floatatom
+inlet~ *~ outlet~
+r sliderchannel three_chord *~ crossfade output~
+inlet route bus
+r sel spigot spigot s
+floatatom f0_limit_counter bng
+vradio canvas s
+inlet * outlet
+loadbang t msg rpi_gpio
+r + float + floatatom outlet
+canvas hidio canvas route route floatatom
+r / / * floatatom
+r sel tgl v
+inlet * i t f
+r t msg s
+bng t msg << floatatom
+hsl msg freeverb~ s~
+loadbang msg soundfiler
+msg j.cue s
+r~ env~ floatatom hsl
+r bng msg canvas *~ s~
+r float msg outlet
+r~ spigot~ vols~ griesinger~ s~
+r pack ofelia
+adc~ bonk~ spigot print
+inlet~ canvas tof/crossfade~ outlet~
+msg zl print
+hsl * + pipe t s
+s msg *~ floatatom tabwrite~ bng
+inlet k_range msg packOSC s
+inlet msg s
+bng square_table symbol msg s
+hsl msg canvas floatatom
+nbx enttec_out
+r *~ canvas canvas text
+inlet seq-sample-player floatatom
+loadbang hradio bng pack msg
+msg usbhid route print
+loadbang f pack msg textfile
+msg s
+r sineMix *~ pan s~
+== r *~ s~
+canvas msg arduino route route tgl
+r unpack pack s
+loadbang msg floatatom *~ tabwrite~
+r msg floatatom sampleplayer outlet~
+inlet trigger msg + * floatatom
+inlet~ canvas c_xfade outlet~
+inlet route bus
+declare PdRacks.transport note_16steps fx_sub text note_randomize
+inlet~ phasor~ expr~ outlet~
+tabwrite~ msg text canvas text floatatom
+inlet msg line floatatom
+bng t msg f t outlet
+msg pix_film unpack floatatom
+msg moop~ dbgr~
+r phiscale pack msg mtl/player~ floatatom
+msg t samplerate~ swap / s
+loadbang t t msg s
+inlet~ tabwrite~
+inlet floatatom xgroove~ outlet~
+r spigot t f + outlet
+tgl msg mpv route route floatatom
+netreceive route s
+r route
+r *~ *~ bng *~ r
+r delread~ lop~ outlet~
+inlet unpack floatatom route msg s
+canvas outlet
+inlet t canvas msg upic2 canvas
+inlet delread4~ *~ +~, +~, delwrite~
+tgl spigot bng outlet
+loadbang t msg vsl nbx
+inlet~ tabwrite~
+r canvas canvas spigot s
+msg mtl/sampleFiler t mtl/player~ bng
+hsl * tabread4 nbx
+floatatom translateXYZ rotate text3d
+r unpack route msg s
+inlet f pack line~ outlet~
+r pack msg textfile
+tgl floatatom t gatte~ gate~ outlet~
+msg snmpget print
+inlet t == pack line~ s~
+inlet msg f - outlet
+r canvas canvas abs_multixyfx2 outlet~
+r lop~ *~ +~ delwrite~
+inlet t msg s
+noise~ *~ dac~
+msg unpack * / metro bng
+make_obj_name seg move route msg alias
+inlet unpack hsl canvas throw~
+loadbang msg canvas
+inlet sel msg outlet
+msg s
+r msg t msg pack msg
+bng symbol symbolatom
+r~ env~ s
+r pack list unpack floatatom
+abc_gain abc_2d_decoder1~, abc_meter
+vsl slg.gain4~ throw~
+r msg line outlet
+inlet unpack gate s
+inlet~ s~
+tgl msg pdp_control route floatatom
+bng msg readsf~ *~ dac~
+r msg msg floatatom s13
+r pack savestate unpack s
+r msg delay t msg
+canvas nbx canvas dac~ i *
+r pack savestate unpack s
+inlet canvas canvas outlet
+r ../../../controller/note-filter sel
+floatatom * pack prepend msg send
+r clip *~ +~ delwrite~
+inlet bng canvas *~ outlet~
+text *~ s floatatom s
+r * hip~ outlet~
+inlet f outlet
+r msg t t s
+r pack savestate unpack s
+r~ osc~ 2f-env s~
+msg msg print
+vsl *~ s~
+bng openpanel msg msg pack s
+msg mouse route tgl
+inlet route msg outlet
+inlet \$1 \$2 t + outlet
+inlet route bus
+msg fiddle~ route unpack floatatom
+gemhead canvas pix_resize pix_info floatatom
+bng f floatatom
+msg route bng
+inlet route canvas msg outlet
+inlet unpack floatatom route msg s
+r msg sdProperty sdProperty s
+floatatom t pack route s
+loadbang msg text2d
+r msg readsf~ *~ dac~
+inlet sel msg unpack spigot outlet
+msg netsend
+inlet sel t timer nbx
+r phasor~ s~
+r floatatom * osc~ *~ dac~
+adc~ s~
+inlet spigot print
+r pack msg textfile
+tgl spigot msg bng
+r~ *~ s~
+bng openpanel msg pix_film unpack floatatom
+tgl canvas msg send
+msg gemhead pix_image alpha translateXYZ pix_draw
+msg midifile route route unpack floatatom
+inlet gate unpack s
+floatatom msg s
+delread~ +~ +~ -~ delwrite~
+inlet msg vradio floatatom mixer~ outlet~
+r t floatatom outlet
+r select msg t pack msg
+declare text inlet~
+notein bng f floatatom tabwrite
+tgl msg s
+msg seqbank floatatom
+r f - floatatom msg s
+floatatom msg s
+msg hid unpack floatatom
+r change sel t bng
+inlet~ +~ filterMod outlet~
+lreceive floatatom
+inlet route canvas t msg s
+inlet msg
+dumpOSC route route unpack vsl
+r r~ *~ *~ outlet~
+r bng DMX/1ch
+inlet floatatom t floatatom outlet s
+r delay5sec *~ throw~
+receive demux route s
+r t spigot pack line outlet
+floatatom *~ +~ vcf~ +~ delwrite~
+r mm_sampler_mixer~ outlet~
+tgl metro tabwrite~
+r msg delay t msg
+r select msg t pack msg
+floatatom pyext floatatom
+r msg delay t msg
+inlet unpack demux | f f
+r *~ +~ *~ outlet~
+loadbang t msg gemwin
+r t msg readsf~ *~ outlet~
+r sel msg msg
+r unpack floatatom
+r~ *~ pan s~
+r route s
+r ../other_patches/volumeandpan~, *~ outlet~
+inlet msg route msg outlet
+inlet route route msg s
+r f s
+tgl canvas canvas throw~
+r output~ output~ random-ramp
+r t delay canvas t s
+r gate unpack s
+r~ *~ s~
+text text declare floatatom
+inlet route t u_sssad outlet
+inlet msg tabplay~ outlet~
+msg xgroove~ floatatom
+loadbang msg curve
+inlet mtof outlet
+r msg msg
+noise~ gatt~ vcf~ gatt~ dac~
+bng canvas + floatatom
+inlet~ 2formants *~ outlet~
+r route route s
+r route t msg s
+inlet clip s
+msg line knob floatatom osc~
+hsl abs_bigplayer1voice *~ canvas throw~
+inlet~ mm_schorus~ *~ mm_compressor~ outlet~
+msg gemcubeframebuffer outlet
+msg s
+makenote + noteout
+msg hid route route tgl
+msg t hid/mouse floatatom
+msg pdp_v4l pdp_binary pdp_hitandmiss pdp_glx
+inlet~ core
+r msg t msg state_saving_module/textfile
+msg s
+canvas msg arduino route canvas
+inlet pack list_store msg vline~ outlet~
+bng canvas canvas line~ tabread~ dac~
+s s vsl f
+loadbang msg msg nxRandom floatatom outlet
+ctlin / floatatom s
+loadbang msg text3d
+r route route / tgl
+bng canvas tgl spigot outlet
+r i + floatatom s
+r msg s
+inlet canvas spigot print
+r msg nbx t pack msg
+r canvas canvas canvas s~
+vsl *~
+r duck~ *~ canvas s~
+r pack msg state_saving_module/textfile
+loadbang msg canvasinfo msg canvas
+msg route bng
+r *~ outlet~
+msg hid route route floatatom
+msg hid route route outlet
+text s
+r pack msg state_saving_module/textfile
+r canvas outlet~
+inlet f pack msg vline~ outlet~
+r pack s
+inlet sample/handle sel t msg s
+inlet unpack pack canvas route s24-voice
+r *~ cnv cnv inlet~ *
+r * select msg s
+inlet~ *~ canvas throw~
+r seq-player-sequencer-step s
+r msg nbx t pack msg
+inlet t float * abs_rezdelayline1 outlet~
+tgl spigot s
+inlet f t print
+bng msg metro int s
+inlet sel msg outlet
+inlet route t t canvas outlet
+closebang msg fc_process t outlet
+bng canvas msg send
+r s
+inlet switch~
+msg count floatatom route f
+r msg t t s
+r msg t t s
+canvas canvas *~ outlet~
+arduino/arduino_in audio/4_free_sound audio/recloopsave *~ dac~
+msg metro spigot tabwrite~
+r route pack route moses outlet
+r canvas s
+loadbang msg canvas
+r mod03~
+r list t 0 f s
+bng sampler-voice
+inlet bng f pyext outlet
+output~ r r random-ramp
+inlet t f t tabwrite
+r msg outlet
+inlet t timer < sel s
+osc~ *~ fluid.nmfmatch~ unpack floatatom
+msg pix_film unpack floatatom
+r spigot select s
+canvas msg hid route route floatatom
+floatatom trg noteout vradio trg
+r msg s
+r *~ *~ min~ max~ outlet~
+loadbang t msg text
+r stripnote expr abs % sel
+inlet t samplerate~ / * floatatom
+inlet route t canvas floatatom
+tgl sel msg gate~ space1~ dac~
+msg route bng
+msg pix_tIIR outlet
+r ctlout
+loadbang t t canvas msg s
+inlet sel msg outlet
+s text outlet~ canvas
+r~ chainLink chainLink chainLink s
+r sel i % s
+r canvas s
+bng symbol msg readsf~ outlet~
+r *~ canvas *~ outlet~
+msg hidio canvas route route tgl
+r f pack savestate unpack s
+bendin floatatom bendout
+ctlin sel debounce tgl floatatom
+key floatatom sel gate sel s
+r spigot t s
+inlet moses spigot msg abs_qlistrec3v outlet
+msg s
+msg s
+bng msg nbx floatatom increaseBPM symbolatom
+udpreceive unpackOSC routeOSC s
+inlet~ canvas outlet~
+mod text
+msg s
+r spigot bng sampleplayer outlet~
+inlet t f f floatatom
+*~ msg inlet~
+r pack savestate unpack s
+inlet unpack outlet
+inlet unpack t glocal/glocal.tabwrite
+inlet route bus
+inlet unpack tgl pack msg outlet
+inlet route canvas outlet
+abc_gain abc_stereodecoder3~ abc_stereoout
+inlet unpack gate s
+r unpack < floatatom
+r floatatom
+hsl msg freeverb~ s~
+msg s
+r route canvas tgl *~ s~
+r detent bang msg
+inlet route msg outlet
+r > change + / s
+loadbang msg outlet
+inlet~ dpp.5chpan dpp.v4chpan throw~
+r route list list_trim outlet
+tgl spigot route route canvas
+r canvas print
+inlet select msg spigot outlet
+receive t s
+r *~ ys.snapshot floatatom % t
+inlet msg unpack s
+inlet t grain~_wrapper
+msg canvas
+loadbang msg ndmetro mod sel bng
+msg ann_mlp unpack floatatom vsl
+r msg delay t msg
+msg oscformat s
+inlet route route clip_unit2 list_prepend outlet
+inlet random outlet
+loadbang msg netreceive route outlet
+r vsl s
+r playsf sineMix hsl
+text loadbang canvas msg msg bng
+r msg nbx t pack msg
+s msg msg spigot msg msg
+r == && msg
+r f sel t msg outlet
+r route s
+loadbang f t msg
+loadbang tgl msg tabwrite
+r~ canvas *~ mixer~ dac~
+u_dispatch tgl
+inlet spigot spigot outlet
+inlet~ *~ st-peakfilter line~ catch~ outlet~
+r ../other_patches/pan~, / ../other_patches/pan~,
+bng fluid.bufnmf floatatom
+loadbang t delay msg
+inlet~ *~ outlet~
+tgl metro random sel msg outlet
+inlet / msg line~ *~ outlet~
+bng f floatatom
+inlet t unpack f set
+inlet bng t msg fractal, play-notes,
+r *~ *~ rev2~ dac~
+inlet~ *~ outlet~
+bng \$0 s
+tgl metro floatatom s
+packOSC floatatom
+inlet route unpack mpx16 floatatom
+r route unpack s
+r msg t msg pack msg
+r msg nbx t pack msg
+receive line *~ +~ throw~
+inlet~ -~ delwrite~
+phasor~ ./dsrand~ ./dbgr~
+inlet msg s
+inlet route route hradio canvas
+inlet msg midi-toggle-control-2 outlet
+r msg
+inlet hradio int makefilename msg send
+inlet t msg * f outlet
+inlet t mapping/speedlimiter bus
+inlet trigger float outlet
+hsl canvas *~ outlet~
+r spigot msg s
+inlet t canvas cvRouteContours outlet
+msg unpack floatatom msg outlet
+delread~ outlet~
+bng canvas coll canvas msg
+r pack canvasargs
+bng canvas bng
+inlet s
+r spigot ../../common/drone-resize ../sequence-player
+loadbang msg msg expr s
+inlet~ lpcoefs roots cpole~ cpole~ tabwrite~
+inlet t f f floatatom
+tgl canvas msg arduino canvas
+r canvas canvas canvas s~
+inlet pitch PCD KeyCoefficient floatatom
+floatatom set
+r f t msg outlet
+r line~ *~ throw~
+floatatom AttDecSusRel
+r~ *~ pan s~
+r f t tabwrite
+inlet gate del t msg s
+loadbang del msg gemwin
+tgl msg list_prepend list_trim s
+r sel spigot spigot s
+inlet OSCroute OSCroute s
+r~ canvas +~ *~ prvu~ vu
+r msg t msg pack msg
+msg msg route s
+loadbang msg pack msg
+r f msg outlet
+inlet sel msg msg outlet
+controller leap floatatom pad2 *~ dac~
+r f sel msg list_prepend s
+inlet t f canvas
+r f pack msg state_saving_module/textfile
+msg flashserver floatatom
+r *~ vsl text
+r moses f s
+canvas hsl canvas
+t nbx gyre/gyre.stereoloop~ canvas inlet~ *
+r % tabread sel s
+floatatom pack prepend msg unpack floatatom
+r expr route msg s
+r route mod sel msg
+inlet route bus
+inlet t nbx ctlout
+r pack savestate unpack s
+r msg pdkvabs/dkfftdelay~ pdkvabs/dkswitch2~ outlet~
+loadbang msg d-tabaccum~ tgl
+loadbang msg vsl nbx
+msg t symbolatom symbol2list unpack symbolatom
+hsl canvas *~ outlet~
+msg t openpanel list_append msg soundfiler
+msg mtl/sampleFiler t mtl/player~ mtl/nbx~
+r msg rrad.minipli s
+hradio canvas
+catch~ *~ soundoutput
+inlet vradio == *~ dac~
+floatatom msg pix_opencv_motempl route unpack floatatom
+hsl note-rest-indexer
+canvas canvas canvas canvas
+msg line knob floatatom osc~
+loadbang msg tgl == crossPot floatatom
+r bang random moses msg s
+floatatom f0_distance floatatom
+unpack hsl msg t inlet~ *
+r mm_drum~ mm_pan~ outlet~
+r spigot pipe s
+msg route route floatatom
+inlet unpack gate s
+inlet unpack floatatom route msg s
+msg canvas
+msg comport tof/from_ascii_code route unpack iostate
+declare declare
+inlet encoder-val s
+r sel f msg
+r *~ canvas / ../other_patches/pan~,
+r msg msg s
+loadbang pack unpack s
+inlet~ canvas *~ throw~
+r eg, vcf, drive s~
+inlet unpack vsl pack outlet
+r msg delay t msg
+gatte-st~ r r
+msg number print
+msg s
+inlet nbx list_prepend route mayor bng
+msg xgroove~ print
+r msg t msg pack msg
+inlet delay delay timer outlet
+ctlin tgl s
+inlet unpack s
+inlet select msg outlet
+r j.cue s
+msg sel canvas
+catch~ adapan *~ *~ canvas outlet~
+r clip *~ +~ delwrite~
+msg pool print
+keyname, spigot change nbx s
+inlet *~ outlet~
+r e_pan outlet~
+inlet msg outlet
+msg route print
+inlet sel msg outlet
+inlet route canvas route aoo_receive~ outlet~
+inlet mod sel f sel outlet
+canvas throw~
+inlet select msg outlet
+msg coords loadbang cnv inlet~ *
+r~ *~ s~
+inlet route s
+msg pdp_v4l pdp_help_output
+bng t fractal, t array
+keyup sel msg s
+msg comport route print
+inlet tgl canvas spigot s
+adc~ env~ unsig~ i floatatom _square_appear
+inlet t bng array unpack fluid.box
+r canvas *~ throw~
+r~ canvas +~ *~ outlet~
+r t spigot f s
+hsl floatatom
+r msg f t s
+bng msg hsl msg s
+inlet~ *~ outlet~
+r sel f
+msg rawjoystick floatatom select bng
+sel canvas *~ nbx inlet~ *
+catch~ hip~ canvas canvas *~ throw~
+inlet~ bp~ threshold~ bng
+inlet unpack s
+floatatom phasor~ circle~ *~ *~ dac~
+loadbang msg text3d
+vsl canvas canvas *~ send~
+route bng canvas dac~ inlet~ *
+inlet unpack floatatom route msg s
+r playsf sineMix *~ pan s~
+r chainLink chainLink throw~
+r router4, sampler *~ *~ dac~
+tgl spigot s
+r msg del msg s
+inlet spigot outlet
+r gemhead pix_image alpha translateXYZ pix_draw
+r *~ canvas canvas cnv
+r list_trim route s
+inlet route trigger value canvas value
+inlet t pack msg
+r unpack outlet
+inlet t lzr/func s
+r msg readsf~ *~ dac~
+canvas symbolatom
+inlet floatatom canvas *~ delwrite~
+r gemhead pix_image alpha translateXYZ pix_draw
+r s
+msg t msg
+r msg canvas unpack + s
+r route s
+t pack list_prepend outlet
+inlet t sel msg fluid.bufcompose~
+inlet t f prepend s
+keyup sel msg s
+r canvas dac~
+r hsl floatatom
+inlet~ nozip cor_headphone_thrower,
+msg pdp_xv
+inlet route sample-player-vline s
+unpack hsl cnv cnv inlet~ *
+loadbang msg t msg msg s
+inlet canvas unpack f sel outlet
+bng openpanel msg msg s
+msg s
+inlet lzr/func t outlet
+f canvas loadbang inlet~ inlet~ *
+inlet unpack floatatom route msg s
+tgl t pack print
+r msg delay t msg
+r msg s
+r tabplay~ hip~ clip~ throw~
+bng random hradio pdp_text outlet
+r t metro spigot f s
+r delread~ *~ *~ throw~
+msg s
+msg pool route print
+tgl spigot route route canvas floatatom
+loadbang samplerate~ *~ /~ grainy~ outlet~
+inlet coll zl route s
+inlet route sel t msg s
+r pack savestate unpack s
+nbx canvas vasp.u
+loadbang f msg
+floatatom pack msg route floatatom
+inlet * floatatom gatte~ gate~ outlet~
+knob canvas *~ outlet~
+msg h_map
+inlet t list_prepend route outlet
+msg sdPackFromHuman sdSynthVoice_obj~ throw~
+r m_scale lop~ canvas outlet~
+r msg change canvas
+r t msg s
+r pack savestate unpack s
+r spigot msg t t ctlout
+r~ *~ s~
+inlet * outlet
+init msg fs.framed fs.rgb canvas
+inlet~ samp-ctlr~ tabwrite~
+r f pack msg textfile
+msg js print
+r floatatom
+r t t msg s
+inlet msg mass2D s
+canvas min spigot t sel s
+bng expr floatatom
+r -
+r f t tabwrite
+r pack savestate unpack s
+r bng sineMix *~ pan s~
+msg gemhead pix_image alpha translateXYZ pix_draw
+loadbang msg * outlet
+loadbang s
+loadbang pack unpack s
+key spigot sel s
+declare * import udpreceive floatatom
+inlet f del bondo pack outlet
+loadbang msg spigot outlet
+delread~ +~ -~ delwrite~
+inlet t f t tabwrite
+msg msg SFlux_Peeters floatatom loadbang energyRMS
+r f t msg + tabwrite
+r floatatom
+inlet t f f floatatom
+r msg t t s
+msg pdp_opencv_bgsubstract pdp_xv
+inlet unpack floatatom route msg s
+sel outlet gyre/gyre.stereoloop~ nbx inlet~ *
+r msg delay t msg
+canvas route canvas s
+r * makefilename msg s
+inlet t msg canvas outlet
+r~ *~ pan s~
+loadbang f t msg
+bng t f pack list_prepend s
+r canvas clip s
+inlet~ outlet~ inlet~
+msg s
+r cam-tocador-phasor1~ r
+inlet msg outlet
+inlet route select msg msg s
+r expr raindrops-rel *~ *~ throw~
+inlet t text
+r mm_synth_mixer~ *~ mm_compressor~ canvas
+floatatom *~ clip~ *~ throw~
+inlet list_prepend list list outlet
+r + rotateXYZ cube
+netpd-r canvas spigot s
+msg msd2D print
+r tgl msg s
+r msg msg
+msg h_stack print
+hsl floatatom
+inlet unpack hsl canvas *~ throw~
+r *~ outlet~
+inlet pack unpack canvas outlet
+r *~ *~ outlet~
+msg chords_memory symbol msg harmonizer print
+receive i floatatom * floatatom
+tgl gate~ s~
+loadbang f == tgl t s
+msg list_prepend print
+vsl *~ env~ dbtorms moses floatatom
+r~ *~ s~
+r f t msg + tabwrite
+8steps r bng polysynth == bob-filter
+loadbang msg hsl floatatom
+r t t canvas t outlet
+r~ canvas +~ *~ dac~
+msg pdp_v4l pdp_scale pdp_opencv_hist_compare unpack vsl
+loadbang msg t s
+r pipe spigot pipe s
+inlet canvas bng
+inlet spigot bng
+r spigot s
+print bng
+bng canvas canvas canvas
+t nbx gyre/gyre.stereoloop~ msg msg *
+msg u_listrandom rjc_gui_pattern32 spigot print
+r floatatom
+r pack savestate unpack s
+r msg canvas *~ s~
+catch~ rev3~ *~ limiter~ *~ dac~
+tgl metro msg s
+inlet msg msg line pack outlet
+catch~ slg.gain1~ slg.gain8~ dac~
+r moses f s
+key floatatom sel t msg
+r hsl != tgl switch~
+msg mapping/homographic outlet
+msg lotkavolterra floatatom
+msg pdp_qt pdp_opencv_motempl route unpack floatatom
+inlet *~ +~ delwrite~ outlet~
+r moses moses floatatom
+r lop~ outlet~
+inlet f + floatatom
+msg hidio route canvas
+r pack msg reloaded/textfile
+r list-abs/list-replace list list_length floatatom
+bng bng s
+r spigot f floatatom s
+r pack savestate unpack s
+r vsl pow *~ dac~
+loadbang msg msg prvu~ vu
+bng t msg s
+loadbang t msg soundfiler s
+inlet~ outlet~
+loadbang msg slg.loadsample~ throw~
+loadbang onebang bng
+r / vsl cyclone/prepend send
+nbx enttec_out
+loadbang msg counter t msg s
+udpreceive unpackOSC routeOSC s
+msg s
+adc~ *~ env~ - vu
+r / * - t floatatom
+msg hid route route floatatom
+r readsf~ +~ *~ s~
+msg xeq print
+r duck~ *~ canvas throw~
+loadbang msg soundfiler
+inlet sel t msg outlet
+r osc/routeOSC s
+vsl floatatom
+inlet bng * floatatom outlet
+floatatom floatatom i
+r canvas clip s
+r~ *~ s~
+inlet f t outlet
+canvas r r
+inlet sel msg line triangle
+msg s
+tgl canvas throw~
+s text delay sum *~ text
+pgmin - pack msg outlet
+tgl msg pdp_opencv_contours_boundingrect route unpack floatatom
+pointer cnv cnv gyre/gyre.stereoloop~ inlet~ *
+msg hid route route tgl
+nbx abs_polysimsam1 *~ *~ throw~
+r pack msg textfile
+bng msg canvas abstractions/delay canvas
+r msg s
+r spigot route spigot outlet
+r print
+inlet msg floatatom osc~ *~ outlet~
+msg glsl_program outlet
+osc~ *~ *~ *~ dac~
+tgl t canvas bng
+r route route s
+loadbang random f mtl/sampleFiler cyclone/prepend
+blepsaw~ tabwrite~
+r msg t msg pack msg
+r sel msg s
+r msg line s
+r canvas s
+msg mtl/sampleFiler mtl/player~ floatatom
+phasor~ hoa.pi~ c.number~
+r print
+r msg delay t msg
+r pack msg vline~ *~ outlet~
+inlet phasor~ *~ -~ outlet~
+canvas outlet~
+inlet bang symbol makefilename send
+receive route t msg demux outlet
+loadbang delay b msg shell
+r t delay f mod s
+r bng delay s
+inlet unpack floatatom route msg s
+udpreceive unpackOSC routeOSC outlet
+inlet canvas list_append t list_prepend msg
+r t bng spigot s
+r sel msg floatatom hsl outlet
+r sel f msg
+output~ r r floatatom
+vsl floatatom
+nbx random pack line outlet
+r canvas r
+msg s
+msg floatatom noteout
+declare bang bang output~ timer
+catch~ output~
+text r inlet
+inlet list_split spigot outlet
+r pack unpack print
+inlet * floatatom
+hsl floatatom
+msg s
+r f t tabwrite
+tgl msg pdp_opencv_hu_moments unpack - floatatom
+inlet msg t msg outlet
+r > select s
+r r~ s~
+cnv bng floatatom dbtorms inlet~
+inlet~ freeverb~ outlet~
+inlet moses t outlet
+r list
+r msg s
+inlet t f f floatatom
+inlet~ abstractions/hoc.vocoder.voice~ *~ *~ hipp~ outlet~
+r msg t t s
+inlet t 1 f f outlet
+tgl metro bng
+r list_prepend s
+r f pack msg reloaded/textfile
+loadbang t msg s
+r sel msg s
+r list_append list_trim t print
+floatatom translateXYZ rotateXYZ scaleXYZ
+msg floatatom msg readanysf~ route floatatom
+loadbang msg circle
+r mm_sampler_mixer~ outlet~
+r msg s
+loadbang tgl alpha translateXYZ rectangle
+vradio canvas canvas *~ outlet~
+r bng sineMix hsl
+r vsl canvas mod outlet
+inlet floatatom coll unpack pack s
+loadbang msg alpha part_killold part_info canvas
+r t s
+inlet unpack f outlet
+r random floatatom s
+* text list_prepend *~ pack
+receive tgl metro snapshot~ floatatom
+r dataUnpacker floatatom
+hradio bng msg pow floatatom
+declare sel msg loadbang expr
+r sel canvas outlet
+r bng sineMix hsl
+loadbang msg max s
+msg mtl/player~ *~ *~ throw~
+loadbang hsl floatatom
+receive route change msg send
+loadbang msg floatatom rectangle
+inlet t msg outlet
+ctlin spigot sel bng msg s
+r t spigot spigot metro bng
+init floatatom testtone~ floatatom
+msg readanysf~ route msg t switch~
+inlet f pow * * outlet
+inlet sel msg outlet
+r pack savestate unpack s
+inlet unpack floatatom route msg s
+r floatatom lop~ *~ dac~
+floatatom msg scramble~ floatatom
+bng scale list-intone print
+bng msg s
+bng declare
+cnv dumpOSC floatatom tgl
+tgl msg pdp_live~ outlet~
+r s
+r canvas s
+msg rtcmix~ print
+canvas pack route fx_granulator/grainpiston~
+loadbang msg switch~
+inlet random / outlet
+inlet~ +~ -~ delwrite~
+inlet unpack canvas msg route outlet
+canvas floatatom spigot msg text2d
+r faust-control s
+msg moses dbtorms t inlet~ *
+r msg t t s
+bng t expr floatatom outlet
+msg moses f msg inlet~ *
+r msg outlet
+r t pack s
+r route sel list list_trim outlet
+hsl canvas s~
+bng openpanel msg
+msg OSCroute OSCroute unpack floatatom
+r * canvas canvas s~
+bng t msg s
+inlet route s
+r msg s
+msg canvas canvas
+inlet demultiplex s s s
+msg unpack pack msg
+floatatom pix_opencv_contours_boundingrect route unpack floatatom
+r pack unpack t tabwrite
+r pack gate unpack s
+r pack savestate unpack s
+delread~ clip~ funmunt funmunt throw~
+canvas canvas tgl spigot spigot outlet
+inlet~ writesf~
+tgl canvas canvas throw~
+bng b msg
+r route t s
+loadbang msg
+midirealtimein route spigot f sel s
+msg + bng text outlet~ text
+msg s
+msg comport canvas convert.ascii2pd unpack floatatom
+inlet~ cos~ -~ *~ outlet~
+inlet route msg gemwin
+inlet t nbx ctlout
+tgl spigot route msg - pgmout
+catch~ session-clip *~ throw~
+floatatom pdp_noquark pdp_affine pdp_xv
+inlet t sel xrecord~ bng
+nbx enttec_out
+canvas limiter~ *~ throw~
+route bng canvas gyre/gyre.stereoloop~ inlet~ *
+bng msg floatatom s
+loadbang msg floatatom pipe bng outlet
+unpack hsl cnv canvas inlet~ *
+r feed, *~ dac~
+inlet~ tracker s
+msg mpv route msg msg
+inlet t spigot t tabwrite
+inlet msg msg nbx inlet~ *
+loadbang msg canvas vsl abstractions/delay canvas
+abc_env_noise abc_2d_map7~ abc_stereodecoder7~ abc_stereoout
+floatatom passif print
+inlet~ *~ outlet~
+r pack savestate unpack s
+key route tgl route msg s
+inlet route route unpack float s
+list-abs/list-pad msg msg canvas text vsl
+receive demux text route t s
+bng msg tgl metro tabwrite~
+r pack savestate unpack s
+r / floatatom hsl
+text bng
+r delread~ lop~ outlet~
+inlet list t list_store, list_tosymbol outlet
+canvas f + & floatatom
+r pack ofelia
+bng t msg msg send
+r msg f mod outlet
+r~ canvas delayaa~
+r floatatom
+bng msg readsf~ fluid.mfcc~ fluid.stats array
+r canvas + floatatom
+msg s
+tgl hidio route route tgl
+r t / / floatatom floatatom
+inlet unpack send
+inlet t bang int tabwrite
+inlet moses t outlet
+inlet route s
+tgl loadbang floatatom
+r spigot t s
+r canvas clip s
+r msg t msg pack msg
+inlet f t msg outlet
+inlet == tgl s
+loadbang msg floatatom rotate rotate canvas
+msg unpack hsl pack msg msg
+msg s
+r t f list_prepend msg s
+inlet spigot tabwrite
+adc~ noisegate~ *~ canvas throw~
+ctlin prepend outlet
+r *~ *~ rev3~ outlet~
+> floatatom
+t unpack value value
+inlet list_prepend list_trim t fluid.bufselect outlet
+msg dynroute print
+catch~ canvas +~ /~ throw~
+tgl metro boids2d route canvas
+canvas msg outlet
+inlet ../../common/step-seq-sel-3 t spigot msg ../../common/step-seq-player
+inlet bang delay bitsample floatatom
+r f t msg + tabwrite
+tgl spigot~ s~
+r pack savestate unpack s
+r spigot msg s
+r msg canvas canvas outlet~
+ctlin floatatom s
+inlet msg array
+floatatom t pack route s
+loadbang t msg text
+r pack line~ *~ canvas throw~
+get loadbang canvas gyre/gyre.stereoloop~ inlet~ *
+inlet list_append outlet
+inlet == outlet
+inlet route ../common/note-walker route ../electribe/notes
+r delay t msg mtl/player~ mtl/nbx~
+inlet msg coords gyre/gyre.stereoloop~ inlet~ *
+r msg pofwin s
+msg gemhead pix_image alpha translateXYZ pix_draw
+msg hsl s
+hsl floatatom trigger ggee/lowpass biquad~ outlet~
+keyup spigot floatatom sel msg s
+msg s
+msg pix_opencv_haarcascade route unpack floatatom
+msg msg bp~ env~ msg
+r spigot t f + outlet
+floatatom expr metro f mod s
+inlet / vsl floatatom
+floatatom else/insert else/display
+r + s
+udpreceive unpackOSC routeOSC canvas s
+r *~ dac~
+inlet mod sel f sel outlet
+t t / select t msg
+inlet select msg spigot outlet
+msg envgen floatatom
+bng msg s
+inlet~ reson~ reson~ *~ throw~
+r msg delay t msg
+inlet canvas s
+delread~ +~ -~ delwrite~
+bendin floatatom bendout
+hsl msg canvas floatatom
+inlet pack msg outlet
+msg hid spigot print
+msg list_prepend print
+inlet route outlet
+inlet moses select t s
+inlet~ lzr/mixstrip~ outlet~
+inlet unpack floatatom route msg s
+bus_master enttec_out
+r floatatom
+inlet sel f sel t outlet
+inlet unpack canvas *~ throw~
+inlet~ bp~ *~ delwrite~
+r f select msg s
+loadbang delay msg pdpad / ipp.panmatrix
+route outlet~ outlet~ nbx inlet~ *
+r expr tgl loader2
+inlet sel msg outlet
+floatatom pulsar~ *~ dac~
+msg xeq_parse print
+r phiscale t pack t pack
+inlet symbol list_fromsymbol t list_store outlet
+msg readsf~ dac~
+r~ *~ s~
+msg s
+hsl canvas bng s
+bng msg floatatom t sel bng
+r route canvas tgl *~ s~
+loadbang msg canvas
+bng canvas *~ dac~
+r t spigot pack line outlet
+floatatom msg h_vector
+inlet~ canvas outlet
+bng canvas t list send
+msg cpole~ tabwrite~
+inlet bng sampleplayer s
+r f outlet
+inlet floatatom seqclock sequencerspacecountspacetwentyspaceoddspaceandspacefourspace f send
+receive t mux s
+r *~ canvas / outlet~
+text route canvas outlet
+inlet~ *~ limiter~ *~ outlet~
+floatatom msg poly outlet
+inlet symbol symbolatom
+inlet~ pluck_one_string_pitch_control~ outlet~
+r pack savestate unpack s
+r msg
+inlet tgl metro tabwrite~
+msg floatatom multiselect bng
+r msg t msg pack msg
+osc~ *~ +~ delread4~ outlet~
+r int s
+inlet route vsl floatatom
+tgl c_multimetro select random outlet
+tgl route tgl clock
+hsl floatatom msg s hsl
+r msg outlet
+nbx msg e_beequad outlet~
+r unpack print
+d-default vsl hip~ lop~ d-drywet~ outlet~
+r t * floatatom
+r clip *~ +~ delwrite~
+inlet clip v
+loadbang trigger msg textfile print
+r bng
+inlet canvas
+loadbang float t canvas
+floatatom pdp_qt floatatom
+msg maxlib/average floatatom
+inlet unpack floatatom route msg s
+r expr s
+inlet unpack canvas *~ throw~
+loadbang delay b msg mtl/player~ bng
+text timegate route trapenv *~
+msg sieve prepend sieve floatatom
+inlet t list list_split list_split outlet
+tgl samp-ctlr~ t /
+r msg t t s
+inlet openpanel msg textfile unpack outlet
+r msg t msg pack msg
+hsl * *~ canvas *~ throw~
+floatatom ehu/packer4 print
+s~ r~ canvas / cnv
+floatatom + int floatatom
+inlet~ apdelay_inner +~ *~ throw~
+inlet sel msg f floatatom
+inlet t canvas sel msg s
+vradio canvas s
+loadbang msg msg prvu~ vu
+msg trigger bng
+loadbang f t + + floatatom
+loadbang msg s
+r gemhead pix_image alpha translateXYZ pix_draw
+r sequencerspacecountspacetwentyspaceoddspaceandspacefourspace f send
+inlet floatatom vcf~ outlet~
+loadbang msg hsl floatatom
+inlet route s
+bng openpanel msg soundfiler b s
+inlet t canvas outlet
+msg cyclone/coll floatatom
+r delread~ *~ +~ delwrite~
+loadbang f msg
+r canvas
+inlet moses select msg outlet
+inlet hradio msg s
+inlet pack t mm_drum~ mm_pan~ outlet~
+msg joystick unpack floatatom
+r t pack msg
+inlet~ canvas canvas outlet~
+inlet list_prepend list_trim fc_process route print
+r t msg soundfiler
+tgl f canvas floatatom outlet s
+tgl hid route route tgl
+r f tgl f s
+r ler-partitura s
+r xgroove~ bng
+bng bng bng bed_player~
+inlet spigot bng canvas *~ outlet~
+r t pack list_prepend s
+OSC/OSCreceiver route bng del s
+r msg t t s
+r canvas
+r msg delay t msg
+msg outlet
+inlet route route route tgl
+r && spigot t s
+r s
+inlet~ core
+r route MIDI/assign
+msg s
+r msg s
+r ../../controller/subpart-selector sel msg ../../common/step-seq-player
+r pack savestate unpack s
+tgl metro float mod floatatom
+r unpack outlet
+inlet unpack floatatom route msg s
+floatatom msg s
+inlet t msg s
+msg mtl/sampleFiler cyclone/prepend
+canvas nbx text msg inlet~ *
+inlet msg bng timer moses s
+loadbang msg knob pan~ *~ dac~
+canvas canvas canvas canvas s
+inlet unpack floatatom route msg s
+inlet t value sel t tabwrite
+r routeOSC routeOSC s
+tgl metro f nbx
+inlet~ phasor~ samphold~ outlet~
+notein t pack route outlet
+r barkSpecSkewness~ s
+bus_master enttec_out
+text *~ s floatatom s
+r route spigot hsl
+inlet unpack hsl canvas *~ throw~
+r radioOrganCtrl floatatom
+inlet floatatom canvas
+msg stat list list_split unpack floatatom
+inlet translateXYZ rotateXYZ polygon_smooth cone outlet
+msg readsf~ *~ dac~
+inlet unpack f outlet
+r * pack t outlet
+bng arraysize t msg s
+r t l outlet
+inlet route vsl lop~ *~ s~
+r + float + floatatom outlet
+r pack savestate unpack s
+inlet change t * tabwrite
+r msg t t s
+canvas floatatom
+r vcf~ vcf~ *~ throw~
+receive list_split list t msg iemguts/sendcanvas
+inlet canvas route msg msg s
+inlet route msg outlet
+r spigot f floatatom s
+loadbang t f moses pack msg
+canvas route unpack t outlet
+receive s
+inlet t list_prepend outlet
+r msg delay t msg
+floatatom canvas atari5200~ *~ *~ dac~
+inlet canvas outlet
+r msg msg
+inlet moses t pack msg outlet
+inlet canvas sel canvas
+r spigot f floatatom s
+ctxfiles/cl t s
+inlet select msg spigot outlet
+r t delay msg s
+bng sampleplayer s
+r pack gate unpack s
+r t bng spigot s
+r bng lopErosion *~ pan s~
+inlet unpack floatatom canvas msg outlet
+r pack msg msg
+inlet mtof~ vcf_hp4~ *~ outlet~
+inlet t nbx ctlout
+p.statedelay sel msg
+msg list t tabwrite~
+inlet t msg midiout
+floatatom trg bng outlet
+floatatom msg pix_opencv_haarcascade route unpack floatatom
+r msg t msg pack msg
+floatatom *~ repeater~ floatatom
+r msg floatatom sampleplayer outlet~
+r floatatom spigot bng s
+floatatom msg s
+r t expr t outlet
+inlet demultiplex s s s
+canvas r
+inlet~ s~
+r select msg t pack msg
+r msg sdSeqPlayer s
+msg bng msg
+r mm_drum~ mm_pan~ outlet~
+t cnv dac~ inlet~ inlet~ *
+r msg t msg pack msg
+msg gatt~
+nbx enttec_out
+ctlin floatatom s
+r b msg
+inlet sequencer2 canvas makenote outlet
+inlet~ samp-ctlr~ tabwrite~
+inlet canvas outlet
+msg floatatom tabwrite
+r *~ tabread4~ *~ dac~
+hsl msg upic2 canvas
+r msg t t s
+inlet floatatom * + floatatom outlet
+tgl s
+r floatatom t == spigot s
+r ../../../tracks/cc
+r t / f * outlet
+msg outlet
+route unpack floatatom
+floatatom tabread print
+receive13 s
+receive msg msg clone dac~
+r msg screensave s
+notein spigot sel msg spigot outlet
+spigot r floatatom msg s
+bng creb/ti_hihat dac~
+loadbang msg counter floatatom msg s
+tgl spigot route route route tgl
+tgl msg t outlet
+r t select delay msg s
+msg msg s
+inlet hsl *~ +~ outlet~
+floatatom cyclone/comb~ gain~ outlet~
+sig~ czero~ czero~ cpole~ cpole~ outlet~
+inlet t f f floatatom
+inlet sequencer2 canvas makenote outlet
+r reloaded/nudge-parameters clip s
+inlet gate unpack s
+r delay 8 s
+r expr select b
+loadbang msg route s
+bng mtl/sampleFiler floatatom
+r canvas r
+delread~ +~ -~ *~ delwrite~
+inlet s
+floatatom msg pdp_theonice~ floatatom
+r route route route s
+tgl mouse floatatom
+r bng t msg bed_player~
+bng outlet
+r msg spigot s
+inlet t msg s
+bng getdir msg t msg s
+inlet~ *~ *~ +~ canvas outlet~
+inlet unpack * pack line~ outlet~
+r msg delay msg latido_midiplayer floatatom
+r r msg
+r tb_peakcomp~ *~ *~ outlet~
+inlet random outlet
+bng msg s
+r pack msg state_saving_module/textfile
+msg s
+tgl *~ dac~
+msg s
+r pack outlet
+r t msg tabwrite
+loadbang msg tgl msg pdp_shape floatatom
+msg arduino route canvas
+r pack msg textfile
+r~ resonant~ *~ throw~
+inlet~ _octo_direct outlet~
+r route canvas s
+r canvas s
+loadbang msg vcf~ *~ outlet~
+noise~ peak~ canvas
+r spigot bng counter-up nbx
+loadbang msg delread4~ *~ *~ dac~
+r spigot pipe s
+inlet t f f outlet
+text canvas floatatom
+noise~ bp~ *~ fluid.spectralshape~ unpack floatatom
+inlet t msg
+r % t t tabwrite
+gatt~ r r
+inlet t f canvas
+inlet f / int change outlet
+r~ *~ s~
+inlet route route print
+bng msg floatatom canvas s~
+r canvas
+inlet spigot outlet
+r msg t msg pack msg
+key sel msg s
+bng canvas msg send
+ctlin notein expr~
+inlet canvas unpack f sel outlet
+floatatom msg canvas *~ dac~
+inlet sel counter sel msg outlet
+inlet route bus
+msg hid route route tgl
+inlet~ cpuamp-fade~ DAoutput~,
+adc~ *~ s~
+loadbang msg floatatom div floatatom floatatom
+t canvas msg
+inlet unpack floatatom route msg s
+j.model print
+r sel msg s
+inlet t f t tabwrite
+r change sel msg s
+inlet floatatom sel outlet
+r msg nbx t pack msg
+bng unnamed_object t pack
+r~ chainLink chainLink chainLink s
+hsl floatatom
+loadbang msg mm_compressor *~ *~ canvas
+text route canvas text
+r msg delay t msg
+floatatom t random
+r msd2D s
+inlet hsl / *~ outlet~
+r canvas
+canvas *~ canvas s~
+inlet t msg / outlet
+inlet msg list_prepend list_trim trigger outlet
+r pack savestate unpack s
+inlet OSCroute slg.loadsample~ s
+select b b inlet f
+r pack msg textfile
+r select msg change msg s
+inlet t f t tabwrite
+r bang msg outlet
+inlet unpack floatatom route msg s
+r hsl radioOrganCtrl floatatom
+inlet t f f floatatom
+bng apmaster
+sig~ gain *~ dac~
+inlet msg + tabwrite
+r commun-c list_trim s
+phasor~ abc_mult2pi~ abc_2d_map1~ abc_2d_scope1~ cyclone/scope~
+r reloaded/nudge-parameters clip s
+inlet floatatom route nbx outlet
+r msg s
+catch~ mtx_*~ send~
+r msg s
+receive print
+ctlin * s
+r msg delay t msg
+msg j.remote print
+r print
+r msg s
+hradio pdp_opencv_hist_compare unpack vsl
+r floatatom msg s
+t nbx coords cnv inlet~ *
+inlet bng
+msg ambi_encode route unpack vsl
+delay declare
+tgl msg s
+msg t list_prepend list_trim outlet
+receive~ expr~ /~ -~ throw~
+loadbang msg msg msg s
+r msg coll pack route s
+msg hid route route floatatom
+r msg == s
+r unpack == tgl t s
+r msg
+coords msg s cnv
+r canvas clip s
+r floatatom change - floatatom
+r floatatom
+s declare inlet~
+key s
+vsl int euclid, floatatom
+floatatom pack msg
+msg mm_seq_editor msg list_length floatatom
+bar t t loadbang
+bng canvas s
+msg pyext symbolatom
+r unpack floatatom
+r msg t msg pack msg
+bng + floatatom * pack msg
+msg msg samplor2~ dac~
+loadbang t s
+msg coll zl route s
+r canvas clip s
+inlet t list-drip list outlet
+delread~ *~ delwrite~
+hsl floatatom msg line~ tof/crossfade~ outlet~
+vradio + canvas floatatom
+r route canvas tgl *~ s~
+r + / floatatom + s
+r msg KontrolRack
+bng timer floatatom
+hsl canvas
+r~ *~ s~
+r msg nbx t pack msg
+inlet parse-start-stop canvas list_prepend unpack outlet
+abc_soundcoat~ abc_2d_encoder1~ abc_2d_mirror1 abc_2d_scope1~ cyclone/scope~
+floatatom trg canvas vradio trg
+r vsl mod outlet
+msg select bng
+r~ lop~ canvas *~ *~ canvas
+r~ chainLink s
+r gate unpack s
+loadbang hsl t pack outlet
+inlet random outlet
+bng t canvas play-lists,
+vsl dbtorms *~ dac~
+inlet trigger list outlet
+r floatatom
+r~ chainLink chainLink s
+msg mux-start mux-2 mux-5 mux-vis
+inlet t expr msg s
+r expr pack s
+loadbang msg pack line~ *~ throw~
+r msg msg outlet
+abc_gain abc_soundgrain~ delwrite~
+receive13 select msg tgl s
+nbx enttec_out
+r pack savestate unpack s
+tgl text text text
+tgl canvas vsl canvas canvas
+r chainLink throw~
+msg select bng
+inlet~ bark~ outlet
+r tabread s
+msg ./neadsr~ tabwrite~
+canvas canvas canvas
+inlet select f s
+bng canvas
+r~ gate~ gate~ space1~ dac~
+r float + floatatom outlet
+r floatatom sel f s
+r spigot f floatatom s
+bng msg readanysf~ throw~
+sel s
+inlet sel msg *~ outlet~
+inlet t msg s
+r expr select b
+loadbang msg text
+tgl *~ outlet~
+tof/param canvas tof/crossfade~ outlet~
+r gate unpack s
+loadbang pack unpack s
+pointer cnv outlet t inlet~ *
+inlet route canvas outlet
+r route tgl *~ s~
+bng i c.menu msg s
+r msg delay t msg
+inlet msg list_prepend list_trim trigger outlet
+r canvas bng
+r msg
+r msg t msg msg s
+fluid.demosound~ fluid.hpss~ *~ fluid.out~
+r msg t msg pack msg
+clone unpack pack clone
+adc~ bonk~ bng
+loadbang msg canvas extra/helmholtz~ floatatom
+r~ *~ z~ *~ tuner-plugin nbx
+inlet random sel msg expr outlet
+loadbang tgl tabwrite
+r route / * delay msg
+inlet sel pdkvabs/dkrandi outlet
+r spigot tabplay~ hip~ *~ dac~
+inlet select msg s
+adc~ *~ canvas fx.compressor~ mix.pan~
+inlet *~ +~ delwrite~
+msg s
+r select msg symbol msg s
+bng bng bng floatatom pgmout
+r pack savestate unpack s
+r sequencerspacecountspacetwentyspaceoddspaceandspacefourspace f send
+inlet mod select bng 4 outlet
+r~ *~ *~ dac~
+inlet~ +~ delwrite~
+r msg delay t msg
+r seq-player-sequencer canvas
+r msg t t s
+phasor~ tabwrite~
+r *~ canvas *~ tabwrite~
+r pack savestate unpack s
+bng t bng msg gen-fun canvas
+bng openpanel msg s
+inlet t == spigot outlet
+inlet t s
+r f msg s
+r f pack savestate unpack s
+tgl msg mm_seq_editor list_prepend s
+r msg delay t msg
+r bng playsf sineMix hsl
+inlet random outlet
+msg gainpan~ *~ *~ dac~
+msg ./nead~ tabwrite~
+inlet~ switcher~ outlet~
+adc~ noisegate~ *~ canvas throw~
+loadbang f == tgl t s
+t msg t route s
+r t pack msg outlet
+inlet f + outlet
+nbx msg plugin~ outlet~
+r msg nbx t pack msg
+bng msg floatatom s
+noise~ *~ outlet~
+canvas outlet,
+r canvas *~ mixer~ dac~
+msg floatatom pack outlet
+delread~ outlet~
+r t msg text route s
+inlet unpack floatatom route msg s
+msg canvas canvas
+inlet~ +~ *~ -~ outlet~
+p.statedelay sel msg
+r msg nbx t pack msg
+r msg s
+r f msg sampleplayer outlet~
+loadbang tgl canvas patches/s_graincloud *~ dac~
+inlet f t outlet
+r << route bng i c_makenote
+r gate unpack s
+inlet t f f floatatom
+r pack msg textfile
+r t spigot pack line outlet
+inlet f f
+s canvas t bng
+inlet~ handlers/mono_pre_processor handlers/mono_post_processor handlers/mono_module switch~
+msg pdp_qtext pdp_glx
+r lop~ *~ +~ delwrite~
+msg unpack vsl pack msg msg
+r msg t t s
+canvas nbx pgmin t
+inlet s
+r msg delay t msg
+r unpack == tgl t s
+loadbang msg pdp_affine pdp_theonice~ floatatom print
+route bng nbx msg inlet~ *
+loadbang msg spigot hradio outlet
+r mm_osc3~ *~ *~ *~ scope
+r floatatom
+loadbang \$1 tgl spigot outlet
+inlet list_prepend list list outlet
+r pack savestate unpack s
+r sel spigot t msg tabwrite
+inlet unpack gate s
+msg linuxmouse floatatom
+r + del f s
+r canvas s
+bng mtl/sampleFiler t mtl/player~ *~ throw~
+canvas floatatom
+inlet hid route unpack outlet
+inlet * s
+r msg gate canvas
+abc_musdur floatatom msg abc_delaychain3~ abc_chopan4~ abc_meter
+r route canvas tgl *~ s~
+floatatom translateXYZ text3d
+r f pack msg state_saving_module/textfile
+inlet pitch PCD floatatom
+inlet t msg state_saving_module/textfile
+inlet sel msg outlet
+r~ *~ canvas s~
+inlet route t msg tabwrite~
+manuals/sequencing/timing_triggers seq.timing.slave bng
+r + canvas s
+inlet print
+floatatom expr floatatom tabread floatatom
+inlet sel spigot bng s
+quad-sound-generator-router msg r~ s~
+inlet bng msg t pack bng
+msg declare udpsend~
+r msg t msg pack msg
+inlet t separator color square
+nbx msg pool print
+msg msg msg canvas canvas
+r partgrupo2~ part1~
+r t bng
+inlet t sel t msg circle
+metro r line s msg spigot
+r u_lowpassq e_beequad outlet~
+inlet t i sel i outlet
+loadbang bng t msg text
+r msg nbx t pack msg
+canvas OSC/OSCsender
+nbx msg s
+inlet msg list_prepend list_trim trigger outlet
+inlet moses select msg outlet
+r s
+floatatom mtof floatatom lp8_butt~ gainvu~ floatatom
+r routeOSC routeOSC s
+r sel msg msg s
+r shortcut seq3-Overdub s
+msg mouse floatatom
+r~ canvas pack
+r msg delay t msg
+abc_env_noise abc_2d_encoder1~ abc_2d_decoder1 abc_quadriout
+tgl t metro bng
+r lopErosion *~ pan s~
+r bng t msg state_saving_module/textfile
+inlet~ -~ delwrite~
+inlet floatatom canvas
+inlet i sel bng
+floatatom <= && sel msg print
+msg tosymbol symbolatom
+r spigot outlet
+inlet~ *~ *~ dry-wet outlet~
+inlet~ canvas throw~
+tgl hid route route floatatom
+sel canvas canvas inlet~ inlet~ *
+r random + pack msg s
+msg msg s
+r == spigot man_note outlet
+r route msg
+r t msg tabwrite
+text *~ bng
+msg seq.tracker4 route sample.drum.machine~ fx.limiter~ mix.out_~
+f canvas outlet nbx inlet~ *
+inlet poly outlet
+inlet route t expr expr s
+hsl msg plugin~ print
+catch~ /~ *~ simplereverb tabwrite~
+inlet route select msg msg s
+r f tgl f s
+msg tabwrite~
+r msg f mod sel bng
+r print
+r tabread + + floatatom
+inlet select msg unpack spigot outlet
+inlet route t t spigot outlet
+inlet t msg s
+msg floatatom floatatom
+r makefilename msg tabwrite~
+tabreceive~ *~ rfft~ tabsend~
+inlet sel msg *~ outlet~
+inlet floatatom route nbx outlet
+r f outlet
+floatatom expr floatatom
+canvas t msg multicycle route s
+inlet until t msg v
+inlet demultiplex trigger * plus outlet
+inlet unpack floatatom route msg s
+* floatatom msg msg inlet~
+r bng sampleplayer s
+r msg s
+msg t outlet
+r ==
+r msg + translateXYZ text2d
+r route s
+r swap pack route floatatom
+r comport Bucket floatatom ctlout
+inlet unpack canvas msg route outlet
+outlet coords bng *~ inlet~ *
+loadbang msg msg f sel s
+inlet expr expr tabwrite
+inlet msg readsf~ vcf~, outlet~
+inlet route msg gemwin
+r canvas *~ throw~
+bng t f msg chords_memory print
+floatatom min floatatom
+bng tgl sel msg s
+r~ gate~ gate~ space1~ dac~
+r bng msg line vsl
+msg hidin route floatatom
+r msg delay t msg
+r t tabwrite
+route msg lastKeyOn + list_prepend s
+r msg s
+msg highest~ floatatom
+receive 01-to-pm1 text r
+msg trigger route bng
+inlet msg outlet
+loadbang msg rotate rotate canvas
+r tgl metro radioOrganCtrl floatatom
+r msg t t s
+r pack line~ *~ throw~
+vsl + floatatom
+msg param.gui
+tgl *~ *~ hip~ output~
+outlet~ declare floatatom r
+msg mtof~ r
+inlet route msg outlet
+r~ *~ s~
+set inlet loadbang msg inlet~ *
+s canvas r t
+msg entry msg msg
+r t msg outlet
+msg s
+ctlin / s
+floatatom metro pdp_v4l bng
+r makenote pack outlet
+inlet msg tabplay~ outlet~
+list_prepend msg outlet~ outlet inlet~ *
+inlet t outlet
+cnv text print s text floatatom
+inlet route vsl floatatom
+inlet random metro random floatatom tabwrite
+inlet t select f outlet
+midirealtimein route spigot f sel s
+r gate unpack s
+r spigot spigot s
+r f t msg + tabwrite
+msg pack msg pdp_bq pdp_xv
+inlet t f t tabwrite
+inlet del list_append list_split outlet
+msg joystick route tgl
+r msg s
+r arpeggio change floatatom
+floatatom msg msg pack list2symbol print
+r timer expr sel f s
+vsl dbtorms canvas prvu~ vu
+msg msg
+catch~ mull~ lim~ outlet~
+inlet s s s s
+msg bang delay msg qlist
+NoteRestIndexer Ambitus, s
+r msg floatatom mtof * floatatom
+tgl spigot~ *~, +~ spigot~ s~
+msg t msg featureAccum array
+inlet route t list text
+inlet t * XYZvector outlet
+receive msg s
+msg pdp_puzzle pdp_spigot pdp_zoom pdp_affine pdp_ffmpeg~
+r bng t f msg textfile
+r & sel s
+inlet msg prepend trigger outlet
+r t msg s
+inlet vArchitecture +~ outlet~
+r t msg s
+loadbang msg counter t msg s
+r msg delay t msg
+canvas + * * pack outlet
+msg fiddle~ route unpack floatatom
+msg moses dac~ outlet~ inlet~ *
+tgl msg pdp_yqt pdp_ctrack floatatom
+r~ moog~ *~ outlet~
+r canvas outlet
+msg mtl/sampleFiler floatatom
+r bng t msg state_saving_module/textfile
+canvas msg arduino canvas
+inlet t list s
+r pack line floatatom
+r pack msg textfile
+r bang random moses msg s
+bng t delay random floatatom
+inlet mod sel f sel outlet
+inlet canvas canvas canvas canvas canvas
+r~ *~ +~ outlet~
+msg rawmouse floatatom pack route tgl
+r sel t msg outlet
+inlet unpack f outlet
+outlet coords gyre/gyre.stereoloop~ nbx inlet~ *
+msg mtl/player~ floatatom
+r msg delay t msg
+canvas msg arduino route route tgl
+msg aspeedlim t timer print
+inlet pyext outlet
+cnv t canvas loadbang cnv
+inlet unpack gate s
+inlet unpack floatatom route msg s
+c_frombus hip~ clip~ dac~
+tgl f canvas floatatom outlet s
+r spigot t msg spigot s
+tgl hid route route tgl
+loadbang i % + floatatom s
+inlet unpack vsl pack outlet
+r random floatatom msg outlet
+msg a/hocquet xeq_polyparse noteout
+msg coll outlet
+floatatom msg bng loadbang
+canvas *~ lop~ throw~
+inlet unpack canvas msg route outlet
+inlet t f f floatatom
+r sel msg msg s
+r msg delay t msg
+floatatom t pack iiroute print
+r msg t msg pack msg
+inlet t canvas outlet
+t t
+r pack msg state_saving_module/textfile
+r routeOSC route msg packOSC s
+floatatom msg s
+r sel msg spigot s
+msg import declare msg msg
+canvas tabread4~ *~ +~ outlet~
+floatatom floatatom
+inlet~ *~ outlet~
+inlet nbx pack line~ vd~ delwrite~
+r expr nbx
+noise~ samphold~ -~ *~ +~ outlet~
+inlet msg msg outlet
+bng mtl/sampleFiler floatatom
+msg s
+r link2masses
+r~ delwrite~
+inlet t msg outlet
+inlet == spigot outlet
+r pack msg state_saving_module/textfile
+msg cyclone/coll symbolatom
+r msg t t s
+msg floatatom text symbolatom
+inlet~ delwrite~
+r io-interface-gui io-interface-core s
+loadbang value msg change msg send
+r *~ outlet~
+r t * s
+r sel msg floatatom hsl outlet
+msg textfile unnamed_object
+bng msg
+inlet expr outlet
+text msg text
+msg noteout
+inlet sin * outlet
+delread~ *~ rev3~ outlet~
+inlet gate unpack s
+r * vsl floatatom
+tgl s
+logic/idRouter samp/sampPlayer
+r pack savestate unpack s
+inlet unpack floatatom route msg s
+bng metro pdp_qt print
+msg swap floatatom
+r list_trim route dataMonitorAnalog floatatom
+r openpanel s
+floatatom pix_opencv_motempl route unpack floatatom
+inlet t f t tabwrite
+inlet moses delread~ *~ s~
+bng tab_find_exact_peaks floatatom
+r route list_split list_split floatatom
+floatatom msg s
+inlet~ throw~
+canvas floatatom pack msg textfile
+vsl canvas s
+loadbang msg outlet
+r t delay f outlet
+loadbang msg select msg soundfiler floatatom
+floatatom trg canvas vradio trg
+msg comport s
+inlet~ s~
+inlet t msg outlet
+text msg metro text
+r msg delay t msg
+inlet~ *~ canvas outlet~
+r msg delay t msg
+hsl canvas *~ outlet~
+r + floatatom canvas s~
+msg unpack s
+tgl canvas canvas throw~
+msg pyext
+floatatom *~ blocknorm~ fiddle~ floatatom s
+r msg t t s
+r gate unpack s
+ctlin pack spigot ctlout
+inlet select msg receive~ *~ outlet~
+catch~ r * latch-notes2 *
+loadbang msg tgl gemhead pix_video outlet
+msg cyclone/coll print
+r msg t t s
+inlet t sel text msg text
+inlet unpack floatatom route msg s
+*~ delread4~ *~ *~ dac~
+inlet moses select msg outlet
+r t msg msg s
+r canvas floatatom
+r~ *~ pan s~
+r~ *~ delwrite~
+keyup sel msg s
+msg egrains~ dbgr~
+msg s
+loadbang msg slg.loadsample~ throw~
+inlet~ canvas outlet~
+r bng t msg textfile
+r msg s
+r symbol pack outlet
+notein swap pack route floatatom bng
+inlet~ bark~ bng
+r msg t t s
+gemhead color translateXYZ square
+fluid.ls2text msg canvas fluid.labelset fluid.plotter
+r clip *~ +~ delwrite~
+bng canvas bng canvas clap bng
+msg oscformat s
+inlet select msg t msg
+msg f pack msg
+r *~ canvas ../other_patches/volumeandpan~, s~
+r msg
+r spigot t f + outlet
+inlet t msg t s
+r r~ s~
+notein mpx16 select bng kick-drum
+r gate gate sel msg
+r s
+inlet route bng msg canvas outlet~
+tgl space1~ dac~
+r pack savestate unpack s
+floatatom f0_fmod floatatom
+r select msg t pack msg
+r~ chainLink chainLink chainLink s
+msg msg msg msg msg outlet
+loadbang t delay msg shell
+r == *~ *~ *~ outlet~
+r msg == s
+r route arpeggio change floatatom
+notein mpx16 select bng acreil-snare1-drum
+r f pack msg state_saving_module/textfile
+r f moses t msg s
+r playsf sineMix *~ pan s~
+tgl metro f mod floatatom
+inlet canvas *~ outlet~
+vradio canvas s
+r nbx canvas tgl s
+sig~ /~ *~ *~ cpole~ outlet~
+openpanel text msg bng phasor~
+inlet ../../common/step-seq-sel-3 msg ../../common/queued-open ../../common/step-seq-player
+r t symbol pack list outlet
+inlet unpack t outlet
+inlet msg outlet
+nbx random metro random / outlet
+msg makenote noteout
+inlet unpack canvas canvas *~ outlet~
+r msg
+msg t msg vsl nbx
+msg coll zl route s
+r pack savestate unpack s
+inlet trigger msg & outlet
+r msg + + mtof, s
+msg hid cyclone/prepend msg
+r msg pdp_theonice~ floatatom s
+ii seq_guts seq_guts print
+adc~ fiddle~ floatatom canvas
+inlet f t f floatatom
+inlet s
+r msg t t s
+r *~ *~ bng *~ r
+r msg delay t msg
+inlet~ *~ tanh~ *~ outlet~
+r sel msg s
+r bng pack prepend msg
+inlet msg vradio sequencerfurther f send
+inlet unpack hsl * *~ throw~
+msg msg s~ r~
+r floatatom
+r~ *~ *~ *~ motex/pan~ s~
+r f * moses outlet
+r select t msg unpack print
+r msg
+r * i msg s
+t t
+r msg delay t msg
+r f == sel outlet
+msg pd~
+r expr expr pack msg
+ctlin outlet
+inlet t msg canvas outlet
+t msg inlet outlet~ inlet~ *
+inlet t msg send
+hsl canvas *~ canvas *~ throw~
+route bng hsl *~ inlet~ *
+floatatom synlets floatatom
+tgl spigot print
+r~ env~ - vu
+loadbang msg ../../controller/subpart-selector select msg ../../common/step-seq-player
+msg fiddle~ bng s
+canvas hid route route floatatom
+floatatom moses floatatom
+hsl * + pipe t s
+msg pool print
+r == t spigot route 2b/ambika/seq-1-mapping
+inlet t msg s
+inlet sel msg spigot gate floatatom
+keyname symbolatom list_fromsymbol unpack route canvas
+msg seg
+inlet outlet
+r tgl metro radioOrganCtrl floatatom
+canvas msg hidio route route tgl
+mm-digital canvas mm-reverb~ dac~
+r t del f s
+r spigot t f + outlet
+msg lorenz floatatom
+r delread~ lop~ *~ +~ delwrite~
+tgl readsf~ fluid.hpss~ *~ dac~
+msg lolotoa print
+canvas outlet~
+canvas s dac~ bng
+msg arduino spigot route canvas floatatom
+r bng counter s
+inlet unpack f outlet
+dumpOSC OSCroute print
+r~ tabwrite~
+r metro counter + floatatom canvas
+bng np_lightstone floatatom
+msg t canvas t makefilename s
+text canvas s s floatatom
+bng msg route t + tgl
+r t * f s
+r s
+r msg t t s
+inlet unpack s
+r pipe outlet
+vsl dbtorms *~ prvu~ vu
+inlet~ +~ lop~ *~ delwrite~
+r unpack + pack list vj_ruler3d
+inlet route t outlet
+r pack msg s
+inlet f + outlet
+r canvas *~ hip~ canvas canvas
+gcanvas tgl canvas
+r route route / tgl
+inlet t pack route s
+msg list2symbol symbolatom
+r route msg pdp_shape floatatom
+inlet mod sel f sel outlet
+t msg route tgl
+receive t msg spigot iemguts/sendcanvas
+r unpack floatatom
+inlet t f msg line outlet
+loadbang t hsl nbx
+outlet text r outlet~ text outlet
+r spigot spigot s
+msg gate floatatom
+r canvas + floatatom
+r print
+inlet msg outlet
+inlet canvas tgl pack outlet
+r == t pack list.sum floatatom
+inlet sdPropertySym sdProperty outlet
+r list_prepend list_trim textfile
+nbx r cdetec-3blob-out-green r dac~ floatatom
+r _nslider-commun s
+t cnv inlet~ cnv inlet~ *
+r f % canvas msg s
+msg list2bytes bytes2any unpack floatatom
+inlet~ canvas +~ +~ -~ delwrite~
+r canvas s
+outlet coords gyre/gyre.stereoloop~ msg msg *
+r dropdown select msg symbol s
+inlet >> & s
+r hsl
+inlet t f f floatatom
+r spigot f floatatom s
+tgl f sel outlet
+inlet route route bng send
+r msg pd~ *~ throw~
+loadbang msg msg msg s
+inlet floatatom f t outlet
+r msg delay t msg
+r t f msg ../../common/step-seq-player
+inlet t f t tabwrite
+r msg nbx t pack msg
+loadbang t t msg polygon polygon
+msg s
+msg msg msd3D print
+inlet symbol t list_append s
+r bng lopErosion *~ pan s~
+r pack savestate unpack s
+r sel msg s
+fruit/receive route unpack floatatom
+canvas pack msg
+vradio canvas s
+t sel inlet~ canvas inlet~ *
+sel outlet cnv cnv inlet~ *
+bng t random-voice-ranges append
+canvas pack tabplay~
+r sel msg s
+touchin pack msg outlet
+hsl notch~ canvas
+msg symbol d-modes floatatom
+r pack savestate unpack s
+msg pdp_qt pdp_opencv_motempl route unpack floatatom
+inlet swap pack route * outlet
+adc~ fiddle~ route unpack floatatom canvas
+floatatom sel msg s
+inlet sel msg gemwin
+msg sparse_FIR~ gainvu~ dac~
+vradio sel msg symbol msg
+r msg nbx t pack msg
+msg moop~ oscope~
+msg canvas mergefilename print
+inlet canvas
+tgl msg pool print
+msg tgl r canvas
+catch~ *~ *~ clip~ hip~ outlet~
+r t f sel s
+msg metro snapshot~ inlet~ filetype *
+msg hid route route floatatom
+floatatom sampleplayer outlet~
+floatatom msg canvas netsend
+r clip *~ +~ delwrite~
+msg openpanel msg pdp_qt pdp_opencv_colorfilt floatatom
+notein noteout
+get loadbang snapshot~ cnv inlet~ *
+r pack msg state_saving_module/textfile
+inlet route route route msg tgl
+msg s
+receive mux array t s
+r msg delay t msg
+msg OSCroute OSCroute unpack floatatom
+bng getdir msg s
+r msg s
+receive t demux unpack s
+bng canvas msg send
+tgl msg s
+r geps.listproc tabwrite
+msg pointer setsize
+inlet~ matrix~ outlet~
+floatatom f pack msg
+r bng playsf playsf sineMix hsl
+r link2D mass2D link2D mass2D s
+inlet~ e_pan outlet~
+loadbang f msg
+r t msg count/accum outlet
+inlet breakpoint_updater outlet
+r / msg paf~ s~
+ctlin hsl floatatom pack print
+inlet bng pdkez-sndplay_ptr~ pdkvabs/dksyncgrn~ outlet~
+msg medusa_send_midi print
+r pack msg textfile
+inlet~ msg line~ *~ loadbang outlet~
+msg floatatom + / msg s
+r pack savestate unpack s
+r f t outlet
+r sequencer9 s
+r * - t mtof floatatom
+r route t canvas + canvas
+maxlib/average maxlib/scale msg s
+r msg msg line~ crossfade~ outlet~
+tgl spigot route route tgl
+noise~ lop~ lop~ lop~ *~ +~
+vsl msg s
+r f pack msg textfile
+inlet del t msg s
+r symbol t t msg s
+r f f send
+tgl msg s
+r~ *~ pan s~
+r unpack s
+output~ kick06-06-2018~
+canvas canvas throw~
+r msg t msg pack msg
+r pack msg state_saving_module/textfile
+receive route select trigger msg gemwin
+r + clip floatatom
+canvas outlet
+r pack line~ *~ *~ outlet~
+inlet moses msg outlet
+msg unpack floatatom msg outlet
+r sel t msg unpack s
+inlet unpack s
+bng openpanel msg s
+r * pack msg
+route inlet t f symbol
+inlet t v
+r canvas *~ *~ outlet~
+canvas fx/bubbler *~ throw~
+fluid.demosound~ fluid.audiotransport~ fluid.out~
+inlet hradio int makefilename msg s
+r pack msg state_saving_module/textfile
+bng bng bng
+r msg pd~ print
+msg arduino canvas
+msg *~ cnv canvas inlet~ *
+inlet~ max~ -~
+r == pack list.sum sel msg
+inlet tgl canvas *~ outlet~
+msg msd2D route s
+loadbang list_append msg s
+r sel msg *~ +~ dac~
+floatatom msg maxlib/pong floatatom canvas tgl
+r t t msg pack s
+floatatom metro random / floatatom
+r pack msg textfile
+inlet unpack floatatom route msg s
+vsl floatatom hip~ *~ dac~
+inlet~ pdp_theonice~ floatatom
+inlet t tabplay~ *~ outlet~
+r fdn~ outlet~
+r msg delay t msg
+msg pluck~, output~
+r spigot spigot s
+canvas demux pix_film canvas world_light
+inlet floatatom canvas
+inlet floatatom xgroove~ bng
+tgl pack prepend msg print
+inlet vst~ outlet
+del msg pd~
+r msg nbx t pack msg
+msg pdp_v4l pdp_opencv_bgsubstract pdp_opencv_morphology pdp_xv
+bng msg increaseBPM symbolatom
+text declare bng
+r~ *~ *~ gate~ space1~ dac~
+square bng tgl pix_rgba bng bng
+r pack savestate unpack s
+inlet t nbx ctlout
+r~ throw~
+ctlin spigot spigot s
+inlet unpack f outlet
+r msg line s
+r spigot canvas route u_dispatch outlet
+inlet floatatom sig~ vcf~ outlet~
+bng s
+notein stripnote select msg hradio s
+canvas vsl nbx
+r symbol msg KontrolModule
+inlet f t msg outlet
+r pack gate unpack s
+r random-stereo-phase canvas *~ soundoutput
+r msg delay t msg
+canvas hidio canvas route route tgl
+r~ *~ +~ *~ *~ throw~
+r t fd_switch *~ throw~
+bng apmaster
+msg canvas colorRGB rotate polygon
+inlet == *~ +~ outlet~
+r unpack pack line mtof floatatom
+r r canvas *~ pack hradio
+inlet spigot outlet
+r~ iemlib/FIR~ *~ +~ outlet~
+msg cyclone/coll print
+r msg t t s
+msg xeq_parse print
+r hsl +~ vcf~ outlet~
+inlet list t list_store, list_tosymbol outlet
+r f t msg + tabwrite
+inlet t msg state_saving_module/textfile
+inlet unpack / *~ outlet~
+bng t msg floatatom t canvas
+inlet~ *~ *~ outlet~
+msg menu-item menu-item menu-item menu-item print
+inlet~ *~ st-phaser outlet~
+inlet bng msg outlet
+sel s
+inlet t list-fifo outlet
+inlet arpeggio unpack canvas makenote noteout
+routeOSC cnv udpreceive text msg routeOSC
+msg xeq_parse print
+r l2s mstorage
+tgl metro msg s
+r msg delay t msg
+r msg coll unpack pack s
+r spigot spigot s
+msg hidio canvas route route floatatom
+inlet random outlet
+r msg t canvas outlet
+hsl canvas +~ *~ dac~
+r pack msg reloaded/textfile
+symbolatom list_prepend list_append s
+r route DMX/1ch
+r symbol t outlet
+tgl metro bng midiseq3 noteout
+vradio canvas msg s
+r canvas floatatom
+unpack / outlet
+nbx - * - mapping/iir vu
+nbx simlight
+catch~ hip~ canvas canvas *~ throw~
+r msg delay t msg
+r msg delay t msg
+loadbang msg hsl + s
+inlet bng canvas canvas
+inlet~ *~ delcat1 *~ outlet~
+r f t outlet
+tgl msg msg trigger outlet
+canvas hidio canvas route route floatatom
+inlet f t msg outlet
+hsl *~ throw~
+r msg pdkvabs/dknobu~ outlet~
+msg route bng
+r int floatatom metro counter bng
+tgl float msg
+inlet canvas unpack f sel outlet
+inlet route canvas *~ *~ throw~
+inlet route ../common/sequence route msg outlet
+r linkline s
+outlet~ mtx_mul~ ambi_encode mtx_mul~
+loadbang msg gain~ linear_panner_5ch~ gain~ dac~
+loadbang msg vcf~ *~ *~ outlet~
+notein mpx16 select bng creb/ti_hihat throw~
+msg outlet
+sel outlet cnv cnv inlet~ *
+hsl zrev1~ outlet~
+msg msg vline~ threshold~ msg
+msg gemwin
+inlet~ *~ *~ t text
+delread~ +~ -~ +~ *~ delwrite~
+loadbang msg msg prvu~ vu
+inlet msg readsf~ outlet~
+unpack * pack
+r spigot tabplay~ *~ outlet~
+inlet t t msg t outlet
+r v t - max v
+msg bonk~ unpack mavg mavg s
+bng del canvas
+r gemhead pix_image alpha translateXYZ pix_draw
+inlet select s
+msg s
+msg vasp.osc vasp.*xwindow vasp.u
+tgl spigot s
+inlet random outlet
+r msg ../random-player
+r pack msg state_saving_module/textfile
+r + % route canvas
+hradio msg outlet
+bng mtl/sampleFiler cyclone/prepend
+loadbang msg
+r route canvas tgl *~ s~
+r bassemu~ outlet~
+loadbang f pack msg textfile
+inlet t msg s
+inlet unpack floatatom route msg s
+r t switch~
+r t pack t 0 v
+inlet~ canvas
+r symbol openpanel t msg s
+loadbang msg soundfiler
+loadbang msg sendOSC
+t symbol pack msg makesymbol print
+loadbang t msg quantize_gui floatatom
+floatatom msg pix_opencv_motempl route unpack floatatom
+loadbang bng init t msg msg
+hip~ r sig~
+inlet pack msg outlet
+bng 0 s
+inlet > change sel msg
+tgl metro msg textfile route s
+floatatom + int floatatom
+r slg.recomposer slg.fluidctl~ outlet~
+inlet *~ +~ delwrite~
+r msg msg
+r route route tgl
+inlet route - * tgl
+ctlin / swap pack route s
+r~ *~ pan s~
+inlet sel tabplay~ outlet~
+inlet t list outlet
+inlet unpack canvas msg route outlet
+inlet sel msg route symbol outlet
+inlet route s
+samplerate~ s tgl
+inlet route msg gate outlet
+loadbang msg modallpass100ms delwrite~
+msg hid spigot bng
+msg plugin~ dac~
+bng msg floatatom s
+inlet route route moses msg outlet
+msg list/avg floatatom
+msg nbx text s outlet
+receiveLRmixer~ *~ dac~
+r r declare canvas
+adc~ fiddle~ floatatom
+r route * vsl canvas dac~
+r pack savestate unpack s
+r pack savestate unpack s
+r tgl
+r volume~ *~ dac~
+r~ *~ *~ vcf~ *~ throw~
+r~ *~ s~
+r msg delay t msg
+tgl msg list_prepend list_trim s
+loadbang msg s
+r canvas abc_2d_syn_ringmod1~ abc_2d_decoder1~ abc_quadriout
+r t msg s
+r~ *~ s~
+r msg pdkvabs/dklooper~ t outlet
+msg tgl dsp floatatom
+inlet spigot poly nbx
+msg hidin print
+inlet t f f floatatom
+r gate unpack s
+msg tosymbol 6_remove unpack 6_setmessage msg
+r / min floatatom
+inlet~ delwrite~
+r j.cue canvas c.menu msg s
+tgl canvas lop~ hip~ canvas throw~
+*~ mixer~ dac~
+catch~ simple-fuzz-effect throw~
+receive bng tgl spigot floatatom send
+inlet bng text list_split listbox
+tgl msg pdp_yqt pdp_warp pdp_xv
+r msg t t s
+r msg msg s
+inlet s
+r msg t msg pack msg
+inlet t t min floatatom
+r mm_xfade lop~ *~ mm_stereoChorus throw~
+loadbang msg t s
+hsl floatatom msg s
+inlet t expr msg s
+inlet msg floatatom canvas
+pgmin spigot outlet
+spigot loadsampleR nbx s
+inlet~ env~ t > change s
+r pack savestate unpack s
+p.statedelay spigot msg
+inlet operating_system select msg s
+inlet list_split list_append t msg s
+r route canvas tgl *~ s~
+msg mtl/player~ *~ *~ throw~
+inlet symbol t s
+floatatom t sel f msg fluid.bufcompose~
+msg pdp_v4l2 pdp_scale pdp_opencv_hist_compare unpack vsl
+msg vasp.radio prepend msg
+r msg delay t msg
+r spigot f floatatom s
+inlet t msg spigot tabwrite
+inlet~ /~ abs~ clip~ *~ outlet~
+midirealtimein sel s
+r ../../../tracks/cc
+inlet f msg msg msg text
+tgl switch~
+r t symbol pack msg s
+r~ bypass outlet~
+r~ *~ pan s~
+msg else/insert else/display
+inlet random outlet
+inlet unpack f outlet
+r msg ../../controller/subpart-selector sel t ../../kp3/pad-off
+r osc~ *~ +~ *~ outlet~
+tgl canvas +~ *~ s~
+inlet analog/parse route route msg s
+r pdkvabs/dklooper~ outlet
+inlet sel msg t outlet
+inlet list_fromsymbol t list_append list_tosymbol outlet
+r pack msg textfile
+midirealtimein spigot sel msg floatatom
+r floatatom
+floatatom updel bng
+inlet unpack floatatom route msg s
+loadbang msg delay nxRandom floatatom outlet
+r hradio select msg *~ outlet~
+sdPackFromHuman s
+receive canvas
+loadbang bng apmasterfile
+r select msg line~ *~ outlet~
+r canvas clip s
+r outlet
+r gemhead pix_image alpha translateXYZ pix_draw
+inlet~ prvu~ vu outlet
+loadbang msg vradio canvas f floatatom
+receive mapping/resample outlet
+r f pack msg textfile
+loadbang msg f == s
+ctlin floatatom bng
+floatatom msg ps.asd~ *~ ps.dac-out~
+r *~ r
+msg ambi_encode route unpack vsl
+r sel msg f floatatom
+inlet select bng
+msg floatatom tabwrite
+r * - t mtof floatatom
+r bypass outlet~
+tgl msg freeverb~ s~
+r msg delay t msg
+r hip~ *~ +~ dac~
+r valueChanged route bng s
+r floatatom proj_vcf proj_vca_env dac~
+loadbang msg msg s
+loadbang msg tabread route msg s
+loadbang msg netsend tgl
+loadbang msg i sel msg s
+r pack msg state_saving_module/textfile
+r / sig~ c_xfade outlet~
+inlet msg list_prepend list_trim trigger outlet
+inlet t f t tabwrite
+inlet t f f floatatom
+r canvas > sel t s
+text hradio text s
+canvas t - clip floatatom
+r msg t msg pack msg
+inlet random sel msg expr outlet
+floatatom makenote pack s
+r mux~ s~
+inlet~ *~ msg outlet~
+inlet t float pack msg outlet
+pstruct lock route t if-numscroll
+r controls playback s
+bng f * nbx
+r sel msg
+floatatom t f * nbx s
+r + * outlet
+inlet route canvas *~ *~ throw~
+r msg hid print
+msg floatatom bp~ *~ *~ outlet~
+r~ sdReadGranular~ throw~
+inlet t + + outlet
+r t pack outlet
+msg hid route route tgl
+r pack savestate unpack s
+catch~ +~ cos~ vcf~ *~ send~
+r random sel msg slg.bombo throw~
+inlet msg unpack s
+receive metro int int tgl
+canvas canvas outlet
+msg comport hsl osc~ dac~
+r pack savestate unpack s
+notein outlet
+inlet route msg gemwin
+r~ canvas +~ *~ dac~
+bng print~
+msg hsl i floatatom + s
+inlet~ canvas canvas canvas
+r spigot msg readsf~ bng
+inlet route t s
+tgl msg msg trigger outlet
+r t f pack spigot s
+r pack savestate unpack s
+r pack msg state_saving_module/textfile
+r spigot f floatatom s
+r pack savestate unpack s
+r t msg pyext~ outlet~
+inlet del t msg s
+msg pack line floatatom
+inlet t route t canvas s
+s canvas tof/breakpoints
+key floatatom sel gate sel s
+r t msg
+loadbang msg floatatom msg abc_2d_randomtrajectory~ abc_scope
+nbx + moses msg s
+r route route / tgl
+r t f sel canvas
+udpreceive unpackOSC routeOSC s
+r canvas msg tgl sel s
+receive t t s
+r msg msg
+r~ *~ *~ dac~
+r canvas s
+inlet unpack floatatom route msg s
+inlet mod sel f sel outlet
+msg s r s
+inlet bng f - outlet
+bng mod_seq bng
+r mm_drum_mixer~ canvas
+loadbang msg f k_range t tabwrite
+msg mtl/player~ *~ *~ throw~
+inlet arpeggio unpack canvas makenote noteout
+msg pool print
+r + * floatatom s
+bng msg s
+msg mtl/sampleFiler mtl/player~ bng
+r msg msg
+bng emg sliderchannel three_chord *~ output~
+inlet floatatom / *~ outlet~
+msg tab_cross_corr
+set inlet msg metro inlet~ *
+inlet filter~ outlet~
+netpd-r sig~ *~ *~ s~
+inlet bng pyext spigot print
+nbx man_note outlet
+r msg t msg pack msg
+t nbx gyre/gyre.stereoloop~ canvas inlet~ *
+r float pack s
+inlet f s
+msg hid route route tgl
+hsl zrev1~ outlet~
+r rngs~ outlet~
+r t || tgl outlet
+inlet floatatom xgroove~ outlet~
+r msg s
+inlet random pack outlet
+inlet~ canvas outlet~
+r delread~ lop~ *~ +~ delwrite~
+loadbang msg tb_compressor~ outlet~
+inlet floatatom canvas
+adc~ noisegate~ *~ canvas throw~
+inlet f t msg outlet
+notein floatatom
+inlet~ pitchtracker~ s~
+msg autoscale timeroll
+r t tabwrite
+r msg delay t msg
+r ../../../samples/loop-as-note
+r * + i floatatom s
+inlet fc_vectorXYZ + fc_vector outlet
+inlet t t tabwrite~
+r f == floatatom
+r bang random moses msg s
+loadbang msg text
+inlet spigot floatatom
+loadbang msg floatatom pipe bng outlet
+msg mtl/sampleFiler floatatom
+vsl metro int tgl
+r f == s
+r bng tgl mtl/player~ bng
+inlet msg s
+r delay t msg s
+r unpack floatatom
+r t spigot f s
+r~ z~ *~ throw~
+inlet~ *~ *~ gate~ space1~ dac~
+msg s
+floatatom sig~ vcf~ *~ send~
+r msg delay t msg
+canvas canvas s~
+catch~ +~ cos~ vcf~ *~ send~
+text s canvas
+inlet resample outlet
+bng wintablet floatatom
+floatatom t int loop msg s
+canvas route canvas s
+msg tcpOpenVibe~ canvas *~ *~ dac~
+inlet moses purepd/once bang msg outlet
+sel canvas gyre/gyre.stereoloop~ outlet~ inlet~ *
+r msg nbx t pack msg
++ canvas outlet inlet~ filetype *
+r msg t t s
+tgl import text route tgl
+r pack msg reloaded/textfile
+r f util/pdkez_randhelp-i * sel s
+udpreceive unpackOSC routeOSC routeOSC unpack s
+r msg nbx t pack msg
+r route unpack vsl
+r mtof outlet
+msg comport canvas convert.ascii2pd unpack floatatom
+loadbang symbol msg send
+r canvas s
+inlet unpack f outlet
+noise~ lop~ *~ *~ dac~
+inlet / lop~ *~ outlet~
+inlet route send
+r f msg s
+noise~ canvas canvas *~ outlet~
+msg sACN_FramingLayer sACN_RootLayer prepend sACN-send
+inlet bng spigot bng outlet
+msg keyboard route tgl
+r lop~ *~ +~ delwrite~
+env~ unsig~ i floatatom
+loadbang msg alpha translateXYZ circle
+r pack msg s
+tabwrite~ msg hsl canvas floatatom
+r int + msg
+hradio msg hid route route tgl
+r msg msg
+r randcut_mod +~ tabread4~ snapshot~ nbx
+tgl floatatom t sel bng
+msg hid spigot print
+floatatom f0_smooth2 floatatom hsl
+r sel msg line floatatom outlet
+inlet translateXYZ sphere
+inlet route canvas outlet
+key floatatom
+inlet~ lp4_butt~ delwritec~
+r symbol list_append list_prepend list_trim s
+msg hid route route floatatom
+r floatatom + max min s
+sel msg array
+select b b inlet f
+inlet t until f outlet
+list_trim unpack declare text
+loadbang tgl throw~ expr
+r vsl r impact~
+r t t msg pack s
+r expr s
+input/minmax_ msg sample/particulate~ dac~
+r f t tabwrite
+inlet msg s
+sig~ /~ *~ min~ min~ outlet~
+r route t msg s
+r f t tabwrite
+inlet~ samphold~ samphold~ delwrite~
+r + float + floatatom outlet
+hsl linn *~ dac~
+r~ canvas canvas s~
+inlet clip expr outlet
+r list_append list_trim t print
+nbx msg e_beequad outlet~
+inlet unpack * pack outlet
+inlet unpack floatatom route msg s
+msg hsl s
+r msg t msg pack msg
+*~ *~ Wind_L *~ declare
+inlet msg clone list_prepend list_trim s
+r canvas
+r msg spigot s
+r pack savestate unpack s
+text canvas routeOSC text
+r pack msg reloaded/textfile
+inlet > demultiplex msg outlet
+r msg t t s
+r f * sel outlet
+r f t tabwrite
+r msg t t s
+loadbang msg t f s
+track *~ master,
+ctlin expr floatatom pack msg outlet
+inlet route floatatom + mtof floatatom
+r r~ s~
+r msg outlet
+inlet route t canvas
+r canvas s
+inlet list list_prepend route msg outlet,
+r spigot spigot s
+loadbang f msg
+canvas cam-tocador-phasor1~ r r r
+inlet sel msg symbol d-modes outlet
+msg send
+msg leapmotion s
+inlet tgl sel msg s
+inlet readtxt + outlet
+canvas outlet~
+r f t outlet
+vsl output~
+inlet t s
+udpreceive unpackOSC routeOSC s
+r seq-player outlet
+loadbang msg
+sig~ -~ *~ outlet~
+r pack line~ *~ throw~
+r pack msg state_saving_module/textfile
+inlet bng t msg
+canvas triggered_loadbang
+inlet route route t prepend textEditor
+notein pack spigot canvas trace s
+bng f msg canvas symbolatom
+canvas bonk~ spigot print
+floatatom *~ dac~
+canvas floatatom canvas
+ctxfiles/dv t sel s
+bng canvas floatatom delay spigot outlet
+r bng t msg textfile
+r symbol t outlet
+msg xeq_parse print
+inlet route canvas canvas outlet~
+r pack savestate unpack s
+inlet t f t tabwrite
+msg hidio route route floatatom
+inlet sig~ lop~ vd~ *~ outlet~
+inlet canvas *~ outlet~
+r t msg tabwrite
+inlet route-to-banks 4-players outlet
+ctlin pack t msg s
+tgl * ++ ++ s
+r / pack line~ *~ outlet~
+floatatom text
+inlet bang list unpack s
+msg route sel print
+inlet unpack floatatom route msg s
+r v
+hsl *~ clip~ +~, tabread4~ outlet~
+r / msg s
+r pack msg outlet
+inlet t spigot floatatom outlet
+inlet bng msg bng msg s
+msg floatatom lop~ lop~ (*) dac~
+hradio floatatom
+inlet unpack f outlet
+r unpack floatatom msg outlet
+inlet~ *~ *~ outlet~
+inlet spigot msg readsf~ *~ dac~
+r f t msg + tabwrite
+text canvas canvas
+r~ *~ pan s~
+inlet vradio == *~ outlet~
+r delread~ lop~ *~ +~ delwrite~
+inlet sel * int sel msg
+r spigot sel t s
+abc_env_noise abc_2d_map1~ abc_2d_scope1~ abc_scope
+catch~ canvas +~ s~
+inlet f outlet
+r / msg s
+inlet unpack floatatom route msg s
+bng bng t msg play-lists,
+receive13 sequencer2 canvas
+r pack msg outlet
+r moses msg s
+r m nbx
+inlet unpack s
+r canvas unpack nbx
+msg mm_seq_editor msg list_length floatatom
+inlet f tabwrite
+r pack savestate unpack s
+loadbang msg select msg soundfiler print
+floatatom sig~ randomize~ s~
+r gainpan~ *~ *~ dac~
+ctlin s
+inlet floatatom route nbx outlet
+receive unpack s
+tgl *~ dac~
+inlet sel msg outlet
+bng t msg pix_video outlet
+bng del switchnramp~ outputc~
+r canvas
+msg hid route route tgl
+r spigot sel msg s
+r msg s
+msg hid route print
+tgl *~ fluid.spectralshape~ unpack floatatom
+msg readsf~ bp~ s~
+r delay t msg s
+r msg t t s
+r msg delay t msg
+msg floatatom floatatom canvas canvas
+canvas hidio canvas route route tgl
+r canvas
+msg s
+msg bonk~ unpack mavg mavg outlet
+inlet canvas unpack f sel outlet
+r *~ throw~
+inlet~ zeroCrossing~ tabwrite
+list_prepend r list_trim r list_prepend outlet
+msg s
+r t f t outlet
+r f spigot outlet
+r f msg sampleplayer outlet~
+ctlin pack route msg s
+r tgl metro radioOrganCtrl floatatom
+floatatom + floatatom pyx. pyext outlet
+msg pipe poly pack print
+msg send
+r demultiplex outlet
+r * ++ s
+r canvas floatatom change t s
+canvas canvas nbx canvas canvas
+floatatom trg bng outlet
+t t
+r msg packOSC s
+symbolatom pack msg s
+msg electribe/notes
+r msg t t s
+inlet~ *~ st-peakfilter line~ msg outlet~
+msg samplerate~ swap / outlet
+r sel msg spigot s
+r * mtof s
+inlet unpack floatatom route msg s
+adc~ *~ outlet~
+inlet route route canvas outlet
+msg j.cue canvas c.menu floatatom
+tgl gemhead pix_image pix_texture translateXYZ circle
+r floatatom == sel outlet
+r s
+r t msg elooper~ timer nbx
+msg mtl/player~ *~ throw~
+abc_gain abc_2d_decoder7~ dac~
+tgl i sel outlet
+inlet maxlib/netserver outlet
+inlet t list_split list_split canvas outlet
+inlet msg tabwrite~
+tgl s
+msg noteout
+r comport route tgl
+canvas msg hid route route tgl
+r select msg s
+r sel msg
+adc~ +~ /~ canvas vsl
+loadbang metro t bng
+r msg bonk~ bng
+bng t bng tabwrite~
+r route s
+canvas hsl canvas
+r tgl *~ throw~
+vsl tgl
+r~ *~ *~ +~ +~ s~
+msg usbhid route canvas
+canvas canvas
+inlet t f f floatatom
+inlet~ hip~ *~ dac~
+r sel f mtl/sampleFiler cyclone/prepend
+inlet~ +~ delwrite~
+inlet unpack gate s
+udpreceive unpackOSC routeOSC route canvas
+osc~ +~ *~ +~ clip~ outlet~
+bng tgl t s
+tgl joystick route tgl
+coords floatatom vsl * *~ +~
+loadbang msg t msg msg s
+r zone_synth
+loadbang msg floatatom f outlet
+msg rtcmix~ print
+msg bonk~ outlet
+r + tabwrite
+r canvas
+loadbang delay t bng canvas
+floatatom msg maxlib/pong floatatom canvas tgl
+msg buttongate bng
+inlet~ tabosc4~ *~ *~ outlet~
+r f t tabwrite
+udpreceive unpackOSC route s
+r t * + tabread s
+tgl metro boids3d route canvas
+inlet~ adapan *~ mux~ s~
+bng msg hsl send
+tgl msg
+r delay t msg pack outlet
+hsl expr floatatom
+loadbang delay b msg shell
+r pack msg state_saving_module/textfile
+tgl mouse route tgl
+inlet~ UITester~ outlet~
+r random s
+r pipe spigot pipe s
+r~ env~ - outlet
+iemguts/receivecanvas spigot route / pack s
+inlet unpack floatatom route msg s
+msg any matrix_mul_stat~ unsig~ floatatom
+msg vbap route floatatom *~ dac~
+netreceive canvas msg netsend
+r f sel s
+r colorRGB cube separator colorRGB
+inlet unpack mapping/debytemask msg msg outlet
+msg mouse unpack floatatom
+inlet unpack s
+inlet route route canvas s
+inlet t canvas sel msg s
+r msg s
+inlet route t msg gemwin
+unpack hsl canvas nbx inlet~ *
+r *~ *~ delwrite~
+inlet * mtof msg
+inlet unpack canvas msg route outlet
+inlet route bus
+floatatom trace s
+msg mtl/player~ *~ throw~
+inlet t s
+msg jdp-hammond-controller
+r floatatom
+inlet spigot s
+r bng t f msg reloaded/textfile
+loadbang t f s
+r t outlet
+inlet nbx spigot floatatom send
+r == s
+r t pack outlet
+inlet gate unpack s
+r spigot t list_prepend text
+msg msg spigot spigot t centroidL2
+r bng sineMix hsl
+msg spray floatatom
+inlet spigot s
+r s
+adc~ fiddle~ floatatom canvas
+tgl metro random sel msg outlet
+key floatatom sel msg s
+inlet floatatom hip~, outlet~
+noise~ *~ +~ s~
+r msg delay t msg
+msg cnv ehu/gem/texture ehu/gem/win
+dumpOSC OSCroute OSCroute s
+floatatom cnv
+r msg delay t msg
+bng openpanel mtl/sampleFiler mtl/player~ *~ throw~
+msg msg symbolatom
+floatatom rotateXYZ world_light
+r sel msg tgl canvas s
+inlet mtof~ vcf~ *~ outlet~
+r msg t msg pack msg
+r msg nbx t pack msg
+r route canvas tgl *~ s~
+hsl floatatom msg s
+r msg r
+msg floatatom maxlib/scale floatatom
+inlet *~ +~ delwrite~
+floatatom makefilename pds2l list2bytes bytes2any print
+loadbang msg
+udpreceive t unpackOSC OSCroute OSCroute tabwrite
+ctlin hsl - / + floatatom
+msg comport route floatatom
+r f msg ../encoder-set
+floatatom canvas makenote noteout
+hsl FX/GuitarExtended-Phaser FX/filterSvf~ canvas *~ declare
+r msg t msg pack msg
+r msg nbx t pack msg
+inlet t t canvas
+r change sel t bng
+nbx msg plugin~ outlet~
+r msg gate canvas
+r sel spigot spigot s
+r msg t msg pack msg
+r pack msg reloaded/textfile
+inlet~ ../audio_clip/pdr_playolap2 outlet~
+msg *~ fluid.mfcc~ unpack vsl
+fluid.demosound~ fluid.ampslice~ dac~
+inlet sel bng
+canvas +~ s~
+r~ chainLink s
+r tabread4~ hip~ *~ outlet~
+receive demux demux delay t s
+noise~ *~ delwrite~
+bendin canvas outlet~
+r~ canvas +~ *~ outlet~
+adc~ *~ *~ dac~
+msg route t \$0 msg
+r t tabwrite
+r sel spigot spigot s
+loadbang bng symbol canvas spigot outlet
+r t fd_switch switch~
+tgl metro random pack line outlet
+r change s
+bng metro t msg cyclecount floatatom
+r sel f s
+inlet t msg state_saving_module/textfile
+vradio sel msg + s
+msg hid route route unpack tgl
+inlet vradio == *~ outlet~
+inlet vsl floatatom
+init msg fs.framed fs.rgb unpack floatatom
+r + tabread outlet
+ctlin floatatom
+msg usbhid route tgl
+r f floatatom
+hradio msg pdp_opencv_contours_boundingrect route unpack floatatom
+bng t msg gui.browser flow.prepend msg
+r scale outlet
+msg route bng
+s hradio bng
+loadbang tgl == floatatom s
+send canvas declare send separator separator
+text msg fexpr~ /~ tabsend~
+r gate s
+declare declare
+r % t canvas rotate canvas
+canvas adc~
+loadbang symbol pack msg outlet
+msg canvas canvas
+msg hidio route select msg print
+tgl hid route route tgl
+msg floatatom * s
+bus_master floatatom
+inlet text select msg s
+bus_master enttec_out
+inlet t f t tabwrite
+inlet pack line~ *~ outlet~
+list-abs/list-mult loadbang t vsl vsl
+inlet t t outlet
+inlet t f f floatatom
+r * t msg s
+msg pdp_ieee1394 pdp_scale pdp_glx
+r canvas mm_pingpong~ mm_sampler_mixer~ outlet~
+r msg t msg pack msg
+inlet sel msg outlet
+inlet msg spigot writesf~
+r < sel msg + s
+floatatom msg floatatom hsl
+msg msg import
+bng msg line nbx spigot hsl
+ctlin floatatom
+bus_master * t pack route bus
+receive sel msg tabplay~ send~
+msg t - timeroll
+msg floatatom print floatatom
+r canvas bp~ throw~
+hsl msg s
+r select msg t pack msg
+r route tgl *~ s~
+loadbang msg hsl canvas floatatom
+floatatom t pack msg color text3d
+inlet nbx list_prepend route minor bng
+r~ *~ +~ outlet~
+r msg line outlet
+inlet tgl metro random bng
+r msg t t s
+msg s
+r canvas s
+r msg nbx * + tabwrite
+r abc_linrandenv2~ abc_2d_stereoencoder3~ abc_2d_scope3~ cyclone/scope~
+inlet unpack tgl canvas *~ throw~
+r msg delay t msg
+bng msg outlet
+r *~ dac~
+r msg t t s
+msg mtl/sampleFiler t mtl/player~ floatatom
+r canvas
+msg msg pix_opencv_athreshold pix_texture square
+inlet s
+msg canvas floatatom
+inlet unpack floatatom route msg s
+r fid floatatom
+r msg print
+loadbang msg tgl s
+inlet route-to-banks 4-players outlet
+inlet msg outlet
+r i stringInstance *~ outlet~
+r msg msg f sel s
+r msg delay t msg
+inlet~ *~ outlet~ line~ loadbang outlet~
+inlet route t list text
+r t msg tabwrite
+r route + list_prepend s
+msg cup floatatom sel bng
+r list
+inlet route canvas hip~ throw~
+r bng
+tgl text
+inlet msg outlet cnv inlet~ *
+r route route / tgl
+outlet coords text canvas msg *
+canvas makefilename msg s
+inlet msg line f * floatatom
+msg unpack vradio pack msg msg
+route outlet~ inlet~ metro inlet~ *
+r pack savestate unpack s
+inlet pack expr outlet
+inlet abs_qlistrec3v spigot outlet
+r floatatom route bng msg s
+bng t msg canvas t s
+tgl msg pdp_mp4player~ floatatom
+loadbang msg canvas xgroove~ floatatom
+bng msg outlet
+r hradio s
+bng t random list-rot wrandom bng
+noise~ *~ snapshot~ + outlet
+receive msg delay t s
+r controls playback s
+r~ writesf~
+bng t msg zexy/nop repeater~ outputc~
+r spigot t s
+bng t gen-fun canvas
+r metro
+msg trigger bng
+inlet > spigot / floatatom
+r msg delay t msg
+inlet route route player outlet~
+msg s
+r spigot bng sampleplayer s
+msg hidio route route msg floatatom
+r * vsl floatatom
+saturno symbolatom
+inlet floatatom sig~ vcf~ outlet~
+r t expr <= select canvas
+loadbang msg s_looper unpack floatatom
+loadbang msg until f t s
+r canvas msg s
+msg linuxmouse floatatom
+inlet + pack msg outlet
+loadbang del msg spatosc tgl
+r unpack expr floatatom s
+r msg t msg msg s
+msg floatatom sig~ vcf~ outlet~
+inlet list_trim route route print
+inlet == *~ outlet~
+ctlin spigot s
+inlet t list-drip t pack msg
+r~ canvas +~ *~ prvu~ vu
+msg floatatom t gatte~ space1~ dac~
+msg comport canvas resample floatatom
+r spigot select msg outlet
+r pack savestate unpack s
+r pow * floatatom
+r expr sel outlet
+msg gemwin
+bus_master enttec_out
+msg hid unpack floatatom
+r spigot t f + outlet
+r msg nbx t pack msg
+r adsr s~
+inlet * moses outlet
+inlet hradio select msg list_split outlet
+inlet unpack s
+msg iem_prepend route bng
+r route route bng
+msg s
+inlet t f f floatatom
+r select msg pipe t v
+phasor~ cos~ oscope~
+inlet OSCroute OSCroute bng s
+msg pool print
+loadbang float_argument min outlet
+r *~ outlet~
+r vsl
+bng t msg canvas t s
+msg seq8 bng
+inlet~ bob~ outlet~
+r canvas abc_puckettespaf~ *~ dac~
+f s vsl s
+loadbang tgl msg s
+loadbang bang msg s
+inlet msg vsl slg.probablyon outlet
+loadbang msg nbx outlet
+noise~ *~ *~ dac~
+s text loadbang text
+bng met~ outlet~
+inlet~ +~ outlet~
+inlet masse2D unpack translateXYZ sphere
+loadbang msg draw
+inlet route t symbol outlet
+inlet msg t msg outlet
+bng savepanel msg
+msg canvas fluid\.bufstats array unpack floatatom
+msg symbol msg s
+inlet - / pack outlet
+r chainLink chainLink s
+r t msg s
+r~ floatatom text s~
+r msg t msg pack msg
+inlet floatatom route nbx outlet
+inlet~ *~ *~ dac~
+r~ expr~ canvas
+hsl +
+vsl canvas canvas s~
+r msg delay t msg
+bng 300 delay tgl t s
+r pack msg state_saving_module/textfile
+msg pdp_v4l pdp_opencv_camshift unpack floatatom
+inlet route route msg oggamp~ outlet~
+inlet canvas outlet
+r f moses t msg s
+bng msg floatatom s
+inlet * outlet
+msg route s
+r t msg t msg s
+msg line interpolate3D msg outlet
+r samplerate~ * clip~ bpbuzz~ outlet~
+msg vasp.cfft vasp.upper vasp.= vasp.update bng
+unpack hsl gyre/gyre.stereoloop~ cnv inlet~ *
+r pack savestate unpack s
+outlet comb-shifter~ inlet~
+inlet msg t msg trigger outlet
+r switch~
+r print
+inlet pix_rds arrayRouterOut
+r pack msg state_saving_module/textfile
+r route canvas tgl *~ s~
+inlet t msg t outlet
+loadbang msg floatatom msg freeverb~ throw~
+inlet metro t msg msd2D s
+r t tabwrite
+floatatom msg list_split list_append route print
+inlet t f t tabwrite
+r gate unpack s
+loadbang msg s
+r msg t t s
+r scale.adaptive floatatom
+loadbang msg mm_compressor~ outlet~
+inlet hsl / f throw~
+canvas s
+inlet i select f pack outlet
+vsl dbtorms canvas prvu~ vu
+inlet select msg unpack outlet
+inlet unpack floatatom route msg s
+inlet clone *~ outlet~
+msg msd
+floatatom xbendout xbendin floatatom
+floatatom canvas canvas +~ +~ canvas
+inlet msg + tabwrite
+floatatom msg pix_opencv_hu_compare unpack floatatom
+inlet msg t msg outlet
+inlet~ outlet~
+r s
+canvas color alpha translateXYZ circle
+msg mtl/sampleFiler t mtl/player~ mtl/nbx~
+loadbang msg ../../controller/subpart-selector select msg ../../common/step-seq-player
+r bng canvas *~ canvas s~
+catch~ hip~ canvas canvas throw~
+r msg seq t canvas s
+hsl floatatom msg s
+msg floatatom noteout
+declare outlet route until
+inlet t v
+r~ *~ s~
+r route floatatom * floatatom
+inlet unpack floatatom route msg s
+msg oscformat s
+r~ crossfade~ output~
+i tgl throw~ text text
+r pow * + * floatatom
+receive pack s
+inlet pack msg outlet
+r pack savestate unpack s
+r slg.DLSPlayer
+bng msg hsl pdkez-sndplay_ptr~ tabread4~ outlet~
+tgl * float outlet
+hsl float msg mrpeach/packOSC mrpeach/udpsend tgl
+r list_append s
+r t bng js print
+inlet sel t msg spigot outlet
+bng play-lists,
+route bng outlet inlet~ inlet~ *
+bng canvas floatatom msg outlet
+bng canvas *~ tabwrite~
+r bng t msg textfile
+msg shell print
+t msg outlet~ metro inlet~ *
+r msg spigot s
+floatatom msg rl_sarsa_egreedy sel msg s
+inlet f t f msg textfile
+inlet poly pack route bp-voice
+r route t route msg
+r f t tabwrite
+r~ *~ s~
+tgl spigot vsl ctlout
+r canvas outlet~
+canvas spigot prepend msg
+r loadbang 0.5 hsl
+r canvas clip s
+msg metro text canvas msg *
+hsl abs_bigplayer1voice *~ canvas throw~
+r canvas s
+loadbang msg vsl i floatatom
+inlet route + pack list_split outlet
+receive13 tgl spigot outlet
+r msg delay t msg
+inlet msg s
+msg s
+gemmouse - * s
+inlet t demux outlet
+floatatom complex-mod~ tabwrite~
+tgl *~ dac~
+inlet select msg unpack s
+r msg delay t msg
+receive demux msg s
+clone-wrapper canvas adc~ msg msg
+r msg hsl t floatatom
+bus_master enttec_out
+inlet unpack floatatom route msg s
+r pack msg textfile
+mm-digital canvas mm-tremolo~ mm-reverb~ dac~
+msg outlet
+msg list_prepend list-abs/list-unique msg osc_receiver floatatom
+udpreceive unpackOSC routeOSC canvas s
+msg r vsl tabplay~
+r f s
+inlet~ *~ expr~ outlet~
+loadbang del msg hradio
+r~ chainLink chainLink chainLink throw~
+r~ s~ r~
+delread~ +~ -~ *~ delwrite~
+msg hidio route route msg floatatom
+r msg
+inlet t until list_append list_split outlet
+r - smoother *~ mux~ s~
+hsl msg abc_matrix2 abc_meter
+t f
+inlet unpack canvas canvas *~ outlet~
+msg rawmouse floatatom pack route bng
+r msg floatatom s
+msg list/sortm msg
+msg gemhead pix_image alpha translateXYZ pix_draw
+bng msg s
+r floatatom % sel bng s
+msg coll * pack prepend msg
+catch~ *~ *~ +~ outlet~
+r select 6 f == floatatom
+inlet~ looper outlet~
+inlet msg f == spigot outlet
+r t * / phasor~ outlet~
+hsl canvas canvas *~ canvas throw~
+hsl msg pdp_freeframe floatatom canvas
+floatatom msg pdp_opencv_surf route unpack floatatom
+msg arduino route route tgl
+ctlin / s
+bng openpanel mtl/sampleFiler mtl/player~ *~ throw~
+bng metro pdp_yqt pdp_binary pdp_or pdp_glx
+r pack savestate unpack s
+bng msg
+r - spigot msg
+inlet FX/beatmangle3 spigot~ outlet~
+inlet route outlet
+r sampler dac~
+floatatom msg mtl/tracker4 print
+r floatatom * t + outlet
+inlet t spigot msg outlet
+catch~ outlet~
+r t del t msg s
+msg t openpanel list_append msg soundfiler
+r msg s
+bng floatatom buttercoef-3 floatatom
+r msg delay t msg
+osc~ +~ *~ dcremove~ tabwrite~
+r random f mtl/sampleFiler floatatom
+hsl abs_bigplayer1voice *~ canvas outlet~
+nbx vsl + floatatom
+r msg msg
+inlet i + outlet
+r f f s
+msg link floatatom
+r msg delay t msg
+bng entry symbolatom
+msg f canvas canvas
+inlet floatatom expr~ phasor~ *~ outlet~
+msg srepeater~ outputc~
+inlet / *~ +~ outlet~
+inlet~ pdkvabs/dkfftgate~ pdkvabs/dkswitch2~ outlet~
+inlet OSCroute OSCroute bng s
+loadbang pack unpack s
+r sel t msg s
+r random / nm_pan outlet~
+r msg t t s
+r msg array
+canvas fs.waveform fs.waveform floatatom
+inlet *~ +~ outlet~
+loadbang msg msg
+r msg threshold~ tgl outlet
+tgl metro bng
+r expr select b msg outlet
+r msg delay t msg
+tgl spigot pdp_glx s
+r pipe randf floatatom
+msg merge_any print
+hsl canvas twosprings gainvu~ dac~
+noise~ bp~ *~ *~, outlet~
+r sel msg tgl canvas s
+r delay mod
+inlet t msg makefilename array listbox
+msg s
+inlet bng counter floatatom msg s
+r msg delay t msg
+floatatom floatatom
+canvas s dac~ bng
+inlet select msg outlet
+tgl spigot pdp_glx route
+nbx *~ +~ *~ s~
+r pack t outlet
+r * - outlet
+r t s
+r nn_note nn_note nn_note nbx outlet
+msg gemhead pix_image alpha translateXYZ pix_draw
+r pack line~ *~ canvas throw~
+canvas chords_memory symbolatom
+abc_gain abc_2d_decoder1_4~ abc_quadriout
+bus_master floatatom
+bng f t msg
+msg hid route route floatatom
+r bng t msg textfile
+msg canvas fiddle~ floatatom
+r pack savestate unpack s
+tgl msg s
+inlet route route canvas s
+bng vradio
+inlet + tabread select s
+msg select bng
+r t pack msg
+r tabread + + floatatom
+inlet t nbx ctlout
+inlet msg readsf~ vcf~, outlet~
+outlet~ inlet~
+text text r f outlet~ canvas
+r u_sssad list_prepend list_trim msg print
+tastin sel msg textfile
+r pack savestate unpack s
+noise~ *~ lop~ *~ dac~
+inlet~ delwrite~
+inlet / outlet
+inlet route floatatom s
+inlet~ *~ *~ *~ dac~
+msg s
+msg ann_mlp unpack floatatom vsl
+key spigot sel s
+bng floatatom de-dupe print
+floatatom pdgate print
+inlet spigot outlet
+r duck~ *~ canvas s~
+floatatom makenote print
+r / pack line~ *~ throw~
+inlet route canvas *~ *~ throw~
+r expr pack msg textfile
+inlet~ env~ moses outlet
+r sel msg t spigot outlet
+msg s
+r pack unpack s
+loadbang random f mtl/sampleFiler print
+msg route bng list_prepend list_append array
+r select msg floatatom
+loadbang t f t outlet
+inlet~ canvas +~ *~ outlet~
+r pack savestate unpack s
+r t pack print
+ctlin tgl outlet
+r floatatom canvas floatatom s
+inlet t canvas pack append
+loadbang symbol msg send
+inlet nbx list_prepend route chromatic bng
+inlet t f list-abs/list-insert list_length outlet
+loadbang canvas
+pointer outlet~ coords nbx inlet~ *
+r msg delay t msg
+r route tgl canvas dac~
+osc~ *~ *~ selectorrrrrrr bng
+gemhead curve
+r + tabwrite
+r routeOSC route * outlet
+inlet msg soundfiler outlet
+floatatom pix_opencv_contours_boundingrect floatatom
+tgl floatatom s
+inlet floatatom msg line~ *~ outlet~
+inlet unpack hsl canvas throw~
+r pack savestate unpack s
+tgl spigot sel msg floatatom
+inlet unpack canvas msg route outlet
+msg trigger route bng
+r clip *~ +~ delwrite~
+r list_prepend list coll print
+loadbang t f t msg
+r t msg s
+r sel f mtl/sampleFiler cyclone/prepend
+inlet bng t list unpack s
+r t t msg js print
+loadbang metro t f outlet
+inlet i select f pack outlet
+osc~ +~ +~ +~
+r~ vcf~ vcf~ *~ throw~
+loadbang t t msg stdout
+msg mtl/sampleFiler t mtl/player~ mtl/nbx~
+outlet r select list_prepend u_dispatch msg
+inlet delread~ *~ outlet~
+r clip *~ +~ delwrite~
+inlet purepd/float_argument floatatom
+mknob msg - sig~
+msg t print
+loadbang msg msg s
+r route canvas tgl *~ s~
+text canvas tgl bng msg
+tof/param canvas tof/crossfade~ outlet~
+notein mpx16 select bng acreil-snare2-drum throw~
+inlet route concat concat concat send
+r pack savestate unpack s
+msg pdp_mp4player~ outlet~
+r canvas floatatom
+r msg delay t msg
+hradio msg hid route route tgl
+msg msg s loadbang outlet~
+msg makesymbol print
+loadbang msg msg floatatom translateXYZ square
+inlet moses msg outlet
+hradio floatatom pdp_freeframe floatatom canvas
+floatatom t pack route s
+r *~ canvas ../other_patches/volumeandpan~, s~
+inlet unpack s
+r canvas r
+r floatatom bng
+bng hradio sel msg pack msg
+loadbang msg floatatom mtof s
+inlet hradio bang msg send
+r MR_table s
+inlet unpack f outlet
+inlet~ *~ *~ +~ delwrite~
+r swap pack route sel bng
+loadbang msg s
+inlet unpack hsl * *~ throw~
+r~ canvas prvu~ vu
+unnamed_object unnamed_object
+r hip~ hip~ *~ canvas canvas
+arduino s outlet
+bng t gen-fun canvas
+inlet bng spigot bng outlet
+msg metro pdp_yqt pdp_binary floatatom
+msg send
+r beatCol selBts s
+inlet route t msg intro-d12
+r r r
+hsl vline~ expr~ expr~ throw~
+r bela_debounce msg s
+hsl canvas *~ canvas *~ throw~
+inlet moses msg floatatom outlet
+inlet / * floatatom outlet
+r route v
+loadbang msg csoundapi~ outlet~
+loadbang s
+r spigot t f + outlet
+msg r
+msg h_set floatatom
+r delread~ lop~ outlet~
+bng symbolatom
+r sel msg s
+tgl metro t pack t floatatom
+inlet t symbol pack route outlet
+loadbang tgl tabwrite
+pointer cnv gyre/gyre.stereoloop~ inlet~ *
+r t NDmetro sel outlet
+loadbang metro random floatatom steady floatatom
+inlet +~ delwrite~ +~ outlet~
+loadbang t t msg s
+r unpack floatatom msg outlet
+msg outlet
+r floatatom
+inlet unpack hsl canvas *~ throw~
+inlet hsl i floatatom + s
+loadbang msg floatatom makenote noteout
+r msg delay t msg
+r hsl i list_prepend s
+r * vsl floatatom
+catch~ *~ dac~
+r msg delay t msg
+inlet outlet
+tgl metro tabwrite~
+r t tabwrite
+bng fluid.bufcompose~
+msg isdirectory floatatom bng
+inlet t spigot sel makefilename outlet
+inlet unpack floatatom route msg s
+r msg line outlet
+r route tgl *~ s~
+r debounce t list_prepend list_trim outlet
+inlet random select
+bng f mod sel triShoot outlet~
+r t outlet
+ehu/gem/mouse nbx ehu/gem/texture
+tgl s
+r hradio canvas s
+loadbang msg s
+inlet t msg outlet
+inlet msg list_prepend list_trim trigger outlet
+inlet route floatatom s
+0 mass floatatom
+inlet routeOSC routeOSC routeOSC s
+r f t msg + tabwrite
+osc-recebe routeOSC canvas
+tgl *~ fluid.spectralshape~ unpack floatatom
+inlet t f t print
+r f msg vline~ *~ s~
+loadbang msg floatatom msg s
+r / metro random - oscformat
+r msg delay t msg
+r route canvas tgl *~ s~
+msg textfile
+inlet unpack canvas msg route outlet
+msg pix_film unpack floatatom
+r spigot sel t s
+bng canvas lop~ *~ dac~
+bng synlets floatatom
+loadbang msg floatatom * * floatatom
+r msg canvas t msg textfile
+msg gemhead pix_image alpha translateXYZ pix_draw
+r route route unpack floatatom
+inlet t msg lzr/func outlet
+r pack floatatom
+r msg t msg pack msg
+hsl mtof phasor~ expr~ +~ outlet~
+loadbang msg print
+r canvas delayaa~
+inlet unpack canvas msg route outlet
+hsl + radioOrganCtrl floatatom
+inlet~ +~ *~ outlet~
+r msg s
+r pack savestate unpack s
+propertybang msg s
+r canvas s
+r change sel t bng
+r spigot f floatatom s
+s t print *~
+inlet pack line~ outlet~
+inlet~ *~ osc~ *~ outlet~
+r~ -~ -~ s~
+inlet route mux-spigot button-to-int mux-3 mux-vis
+inlet~ mtl/rect-up~ outlet~
+inlet t msg text
+msg pdp_v4l pdp_opencv_threshold pdp_opencv_contours_boundingrect floatatom
+r lop~ outlet~
+loadbang msg canvas
+canvas msg hid route route floatatom
+r gate s
+r t spigot pack line outlet
+r pipe bondo expr s
+r msg delay t msg
+nbx abs/track
+bng t msg t msd print
+r f t tabwrite
+floatatom pdp_opencv_motempl route unpack floatatom
+inlet select msg unpack outlet
+delread~ lop~ *~ delwrite~
+msg 3dSphere
+r msg midi-map
+t nbx *~ *~ inlet~ *
+r f sel pdkvabs/dkrrand s,
+r r~
+r~ e_softclip *~ canvas outlet~
+inlet msg outlet
+loadbang random f mtl/sampleFiler cyclone/prepend
+r / msg s
+t t
+r __CueFrogPlayerSpeed s
+clip-pad moses moses t spigot
+msg ./rexpline floatatom
+msg zexy/nop repeater~ floatatom
+r slg.recomposer slg.midictl
+r bng t f msg state_saving_module/textfile
+r msg delay t msg
+floatatom msg rl_sarsa_egreedy sel msg s
+msg sparse_FIR~ gainvu~ floatatom
+inlet~ sdRecorder_obj~ t sdGate print
+inlet sel msg outlet
+inlet unpack hsl * *~ throw~
+r tabread + + floatatom
+r tabread + + floatatom
+floatatom makefilename pack s
+inlet unpack canvas canvas *~ outlet~
+loadbang f sel t msg s
+r t random wahwah~ outlet~
+inlet~ text outlet~ outlet~
+loadbang msg floatatom spigot print
+loadbang msg s
+r msg delay t msg
+msg entry print
+u_savepreset msg
+inlet msg line~ msg outlet~
+r msg t t s
+inlet unpack f outlet
+r msg t msg pack msg
+r f pack s
+canvas text
+r msg t msg pack msg
+r sel msg mtl/sampleFiler cyclone/prepend
+tgl metro bng
+inlet sel f * sel s
+vradio list_prepend route pack outlet
+r~ env~ - outlet
+msg arduino canvas canvas tgl canvas
+r~ *~ +~ canvas *~ canvas
+osc~ *~ dac~
+floatatom dbtorms floatatom
+msg match unpack symbolatom
+inlet canvas unpack f sel outlet
+msg fluid.ampgate~ tabwrite~
+inlet t s
+canvas floatatom pack msg textfile
+r msg pix_flip t s
+msg metro bng tabwrite~
+r floatatom r cnv vsl declare
+loadbang msg hsl msg s
+noise~ *~ fluid.spectralshape~ unpack floatatom
+text declare floatatom ehu/abs_path msg unpack
+r pack savestate unpack s
+r *~ outlet~
+msg hsl s
+r msg switch floatatom change outlet
+floatatom s
+msg xgroove~ floatatom
+r route unpack s
+r float pack msg s
+r route symbol split_path outlet
+hradio text list_prepend list_trim s
+inlet list_split list, list_trim outlet
+r canvas clip s
+msg *~ print text
+r msg terminal_tedium_adc maxlib/scale s
+r delay f noteout
+tgl canvas
+inlet t s
+r t outlet
+r route route s
+bng msg fluid.labelset
+bng msg electribe/notes
+r tgl + gate route outlet
+namecanvas symbol msg r text savestate
+r route route s
+r hsl
+r msg msg
+inlet random outlet
+r bng playsf sineMix hsl
+inlet canvas s
+tgl == spigot fluid.bufnmf bng
+r spigot * bng floatatom
+inlet msg line~ -~ outlet~
+hsl * *~ canvas *~ throw~
+r bng sineMix *~ pan s~
+msg ossmixer sel floatatom
+r~ writesf~
+floatatom pdp_affine pdp_theonice~ floatatom
+msg text3d
+inlet msg readsf~ vcf~, outlet~
+loadbang msg floatatom mod floatatom floatatom
+loadbang tgl
+tgl msg s
+r sel msg canvas colorRGB outlet
+msg cxc_prepend cxc_prepend print
+inlet t f pack outlet
+hsl canvas *~ canvas throw~
+tabreceive~ *~ rfft~ delwrite~
+inlet moses msg outlet
+r osc~ *~ +~ *~ s~
+abc_gain abc_2d_decoder1~ abc_quadriout
+r unpack msg outlet
+r t msg
+catch~ outlet~
+r canvas throw~
+bng openpanel msg readsf~ dac~
+r * makefilename msg s
+inlet msg s
+catch~ hip~ canvas canvas *~ throw~
+loadbang t delay msg
+floatatom translateXYZ rectangle
+r msg unpack tabwrite
+bng t msg s
+inlet unpack hsl pack msg outlet
+loadbang metro t i, s
+inlet list_append list_split route list_split outlet
+receive13 spigot bng sampleplayer outlet~
+loadbang msg msg msg s
+r msg t t s
+r msg delay t msg
+inlet hsl / *~ outlet~
+loadbang t msg mass s
+r sel msg f msg outlet
+msg trigger route bng
+inlet sel msg outlet

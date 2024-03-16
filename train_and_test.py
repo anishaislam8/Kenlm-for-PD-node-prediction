@@ -6,7 +6,7 @@ def predict_next_token(model, context):
     #context_tokens = context.split(" ")
     next_token_probabilities = {}
 
-    with open("trained_models/kenlm_5_without_padding_full_training_set.vocab", "r", encoding="utf8") as vocab_f:
+    with open("trained_models/kenlm_8_without_padding.vocab", "r", encoding="utf8") as vocab_f:
         vocabulary = vocab_f.readlines()
         for candidate_word in vocabulary:
             candidate_word = candidate_word.strip()
@@ -20,7 +20,7 @@ def evaluate_kenlm_model(model):
       y_true = []
       y_pred = []
 
-      with open("data/test_data_20_after_project_wise_split.txt", "r", encoding="utf8") as f:
+      with open("data/test_data_subset.txt", "r", encoding="utf8") as f:
             lines = f.readlines()
             i = 0
             for line in lines:
@@ -51,7 +51,7 @@ def evaluate_kenlm_model(model):
       f1 = f1_score(y_true, y_pred, average='weighted', zero_division=np.nan)
       return accuracy, precision, recall, f1
 
-model = kenlm.Model('trained_models/kenlm_5_without_padding_full_training_set.arpa')
+model = kenlm.Model('trained_models/kenlm_8_without_padding.arpa')
 accuracy, precision, recall, f1 = evaluate_kenlm_model(model)
 print("Accuracy: ", accuracy)
 print("Precision: ", precision)
