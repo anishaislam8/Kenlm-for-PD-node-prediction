@@ -1,0 +1,2 @@
+# remove hashes from test_hashes.txt that are also in train_hashes.txt
+grep -Fxvf train_hashes.txt test_hashes.txt >> test_hashes_filtered.txt
