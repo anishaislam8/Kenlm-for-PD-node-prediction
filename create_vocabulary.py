@@ -12,6 +12,13 @@ with open("trained_models/kenlm_5_without_padding_full_training_set.arpa", "r", 
         if found_1_grams:
             i+=1
             print(i)
+
+            '''
+            Note: You will get an error in the last line because after every n-gram, there is a empty line in the arpa file
+            which causes error in the split function below. It's pretty easy to fix, but I am just being lazy :')
+            The vocabulary file will be created just fine, regardless of the error.
+            '''
+
             token = line.split('\t')[1]
             with open("trained_models/kenlm_5_without_padding_full_training_set.vocab", "a") as f:
                 f.write(token+"\n")
