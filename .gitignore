@@ -3,3 +3,6 @@ trained_models/kenlm_5_without_padding_full_training_set.arpa
 data/
 trained_models/
 testcorpus_subset_without_padding
+mrr.txt
+output/
+__pycache__/
