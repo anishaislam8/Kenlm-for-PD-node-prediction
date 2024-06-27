@@ -32,7 +32,7 @@ def three_length_dfs(node, G, visited, path, paths):
     visited[node] = True
     path.append(node)
 
-    if len(path) <= 4:
+    if len(path) <= 3:
         paths.append(path.copy())    
     
         for neighbor in G[node]:
