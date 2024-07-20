@@ -78,7 +78,7 @@ def get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word
     heap = []
 
     vocabulary = None
-    with open("/media/baguette/aislam4/paths/models/kenlm/trained_models/kenlm_all_paths_without_padding.vocab", "r", encoding="utf8") as vocab_f:
+    with open("trained_models/kenlm_all_paths_without_padding.vocab", "r", encoding="utf8") as vocab_f:
         vocabulary = vocab_f.readlines()
     
     for path in all_paths_ending_with_this_node:
