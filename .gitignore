@@ -5,5 +5,7 @@ testcorpus_subset_without_padding
 mrr.txt
 output/
 __pycache__/
-*.txt
 Figures/
+test.py
+exception_4.txt
+evaluation/
