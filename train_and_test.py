@@ -4,22 +4,17 @@ import sqlite3
 
 from utils import *
 
-conn = sqlite3.connect("../../dataset/database.db")
+conn = sqlite3.connect("database.db")
 cursor = conn.cursor()
 
 def evaluate_kenlm_model(model):
     processed = 0
-    with open("evaluation/test_hashes_4.txt", "r") as f:
+    with open("test_hashes.txt", "r") as f:
         lines = f.readlines()
         for line in lines:
             
-            print("Processed :", processed) # this should be 4113 for the 4114th line
-            if processed < 4114:
-                processed += 1
-                continue
-            
+            print("Processed :", processed)
             processed += 1
-            
             line = line.strip()
             content = get_content_from_db(line, cursor)
             data = json.loads(content)
@@ -53,7 +48,7 @@ def evaluate_kenlm_model(model):
                     three_length_dfs(node, G_reversed, visited, current_path_for_this_node, all_paths_ending_with_this_node)
 
                     true_next_word = object_dict[node]
-                    rank = get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word)
+                    rank = get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word, 0)
 
 
                     # write to a file
@@ -65,11 +60,11 @@ def evaluate_kenlm_model(model):
 
                 mrr_for_this_graph /= len(nodes)
 
-                with open("mrr_4.txt", "a") as f:
+                with open("mrr.txt", "a") as f:
                     f.write(line + " " + str(mrr_for_this_graph) + "\n")
 
             else:
-                with open("exception_4.txt", "a") as f:
+                with open("exception.txt", "a") as f:
                     f.write(line + ": No connections found\n")
 
 
@@ -82,4 +77,5 @@ def evaluate_kenlm_model(model):
 
 model = kenlm.Model('trained_models/kenlm_3_paths_all_not_padded.arpa')
 evaluate_kenlm_model(model)
+
 

@@ -77,6 +77,8 @@ def get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word
     max_heap_size = 10
     heap = []
     vocab_file = None
+    if model_number == 0:
+        vocab_file = "trained_models/kenlm_all_paths_without_padding.vocab"
     if model_number == 1:
         vocab_file = "trained_models/model1/kenlm_all_paths_without_padding.vocab"
     elif model_number == 2:
