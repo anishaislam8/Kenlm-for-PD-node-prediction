@@ -16,3 +16,5 @@ mrr_values/
 train_test_split/
 corpus.py
 graph*
+merge.py
+small_test.py
