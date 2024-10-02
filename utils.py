@@ -72,34 +72,57 @@ def create_reverse_directed_graph_test(connections, all_objects):
     return graph
 
 
-def get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word):
+def get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word, model_number):
 
     max_heap_size = 10
     heap = []
+    vocab_file = None
+
+    if model_number == 1:
+        vocab_file = "trained_models/kenlm_all_paths_without_padding.vocab"
+
+    if model_number == 2:
+        vocab_file = "trained_models/model2/kenlm_all_paths_without_padding.vocab"
+    elif model_number == 3:
+        vocab_file = "trained_models/model3/kenlm_all_paths_without_padding.vocab"
+    elif model_number == 4:
+        vocab_file = "trained_models/model4/kenlm_all_paths_without_padding.vocab"
+    elif model_number == 5:
+        vocab_file = "trained_models/model5/kenlm_all_paths_without_padding.vocab"
 
     vocabulary = None
-    with open("trained_models/kenlm_all_paths_without_padding.vocab", "r", encoding="utf8") as vocab_f:
+    with open(vocab_file, "r", encoding="utf8") as vocab_f:
         vocabulary = vocab_f.readlines()
     
     for path in all_paths_ending_with_this_node:
-        path = path[::-1]
+        path = path[::-1] # reverse path
         path = [object_dict[node] for node in path]
-
-        if len(path) == 1:
+        print(path)
+        
+        if len(path) == 1 and len(all_paths_ending_with_this_node) == 1:
             context = ""
-        else:
+        elif len(path) == 1:
+            continue
+        elif len(path) > 1:
             # Use all words except the last one as context
             context = " ".join(path[:-1])
             context += " "
        
-
+        print("Context: ", context)
+        print("True next word: ", true_next_word)
+        
     
+        i = 0
         for candidate_word in vocabulary:
             candidate_word = candidate_word.strip()
             context_with_candidate = context + candidate_word
+            if i == 0:
+                print("Context with candidate: ", context_with_candidate)
+                print("\n\n")
+                i += 1
             score = model.score(context_with_candidate)
             negative_score = -1 * score
-            
+
 
             found = False
             for token in heap:
@@ -128,6 +151,8 @@ def get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word
     heapq.heapify(heap)
     # sort the heap
     heap.sort(key=lambda x: x[0])
+
+    print(heap)
 
     for i in range(len(heap)):
         if heap[i][1] == true_next_word:

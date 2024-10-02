@@ -1,31 +1,33 @@
+
 kenlm_mrr = []
-with open('kenlm_mrr_final_sorted.txt', 'r') as f:
+with open('mrr_values/kenlm_mrr_final_sorted.txt', 'r') as f:
     lines = f.readlines()
     for line in lines:
         hash_and_mrr = line.strip().split(" ")
         kenlm_mrr.append(float(hash_and_mrr[1]))
 
-
+'''
 # write the values to a file
 with open('mrr_kenlm_value.txt', 'w') as f:
     for i in range(len(kenlm_mrr)):
         f.write(f'{kenlm_mrr[i]}\n')
 
-
+'''
 
 graph_model_mrr = []
-with open('graph_mrr_final_v1_sorted.txt', 'r') as f:
+with open('mrr_values/graph_mrr_final_v2_sorted.txt', 'r') as f:
     lines = f.readlines()
     for line in lines:
         hash_and_mrr = line.strip().split(" ")
         graph_model_mrr.append(float(hash_and_mrr[1]))
 
 
-with open('mrr_graph_value.txt', 'w') as f:
+with open('mrr_graph_value_v2.txt', 'w') as f:
     for i in range(len(graph_model_mrr)):
         f.write(f'{graph_model_mrr[i]}\n')
 
 
+'''
 import matplotlib.pyplot as plt
 
 plt.hist(kenlm_mrr, color="lightgreen", ec = "black", bins=20)
@@ -62,8 +64,8 @@ df = pd.DataFrame(kenlm_mrr, columns=['MRR'])
 print(df.describe())
 
 
-
-
+'''
+import matplotlib.pyplot as plt
 
 data = [kenlm_mrr, graph_model_mrr]
 
@@ -76,8 +78,8 @@ plt.show()
 
 
 # # R code for wilcox test
-# graph_node=read.delim(header = FALSE, file = "D:\\Masters\\Thesis\\models\\kenlm\\mrr_graph_value.txt");
-# kenlm_node=read.delim(header = FALSE, file = "D:\\Masters\\Thesis\\models\\kenlm\\mrr_kenlm_value.txt");
+# graph_node=read.delim(header = FALSE, file = "D:\\Masters\\Thesis\\models\\kenlm\\mrr_values\\mrr_graph_value_v2.txt");
+# kenlm_node=read.delim(header = FALSE, file = "D:\\Masters\\Thesis\\models\\kenlm\\mrr_values\\mrr_kenlm_value.txt");
 # graph_node$V1 <- as.numeric(as.character(graph_node$V1))
 # kenlm_node$V1 <- as.numeric(as.character(kenlm_node$V1))
 # wilcox.test(graph_node$V1, kenlm_node$V1)
