@@ -77,11 +77,9 @@ def get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word
     max_heap_size = 10
     heap = []
     vocab_file = None
-
     if model_number == 1:
-        vocab_file = "trained_models/kenlm_all_paths_without_padding.vocab"
-
-    if model_number == 2:
+        vocab_file = "trained_models/model1/kenlm_all_paths_without_padding.vocab"
+    elif model_number == 2:
         vocab_file = "trained_models/model2/kenlm_all_paths_without_padding.vocab"
     elif model_number == 3:
         vocab_file = "trained_models/model3/kenlm_all_paths_without_padding.vocab"
@@ -95,10 +93,9 @@ def get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word
         vocabulary = vocab_f.readlines()
     
     for path in all_paths_ending_with_this_node:
-        path = path[::-1] # reverse path
+        path = path[::-1]
         path = [object_dict[node] for node in path]
-        print(path)
-        
+
         if len(path) == 1 and len(all_paths_ending_with_this_node) == 1:
             context = ""
         elif len(path) == 1:
@@ -106,32 +103,25 @@ def get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word
         elif len(path) > 1:
             # Use all words except the last one as context
             context = " ".join(path[:-1])
-            context += " "
+            context += " " 
        
-        print("Context: ", context)
-        print("True next word: ", true_next_word)
-        
+
     
-        i = 0
         for candidate_word in vocabulary:
             candidate_word = candidate_word.strip()
             context_with_candidate = context + candidate_word
-            if i == 0:
-                print("Context with candidate: ", context_with_candidate)
-                print("\n\n")
-                i += 1
             score = model.score(context_with_candidate)
-            negative_score = -1 * score
-
+            
+            
 
             found = False
             for token in heap:
                 if token[1] == candidate_word:
                     found = True
-                    if token[0] > negative_score:
+                    if token[0] < score:
                         # replace the score
                         heap.remove(token)
-                        heapq.heappush(heap, (negative_score, candidate_word))
+                        heapq.heappush(heap, (score, candidate_word))
                     
                     break
                 
@@ -140,22 +130,21 @@ def get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word
                 
             else:
                 if len(heap) < max_heap_size:
-                    heapq.heappush(heap, (negative_score, candidate_word))
+                    heapq.heappush(heap, (score, candidate_word))
                 
                 else:
-                    if negative_score < heap[0][0]: # smaller means larger probability
+                    if score > heap[0][0]: # if current score is larger than the lowest possible element in heap
                         heapq.heappop(heap)
-                        heapq.heappush(heap, (negative_score, candidate_word))
+                        heapq.heappush(heap, (score, candidate_word))
 
     
     heapq.heapify(heap)
     # sort the heap
-    heap.sort(key=lambda x: x[0])
-
-    print(heap)
+    heap.sort(key=lambda x: x[0], reverse = True)
 
     for i in range(len(heap)):
         if heap[i][1] == true_next_word:
             return i+1
         
     return -1
+
