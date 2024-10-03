@@ -19,6 +19,6 @@ with open("train_hashes.txt", "r") as train_hash_file:
 
 
 
-file_name = open('train_data_80_after_project_wise_split_all_paths.txt','a')
+file_name = open('corpus.txt','a')
 for item in train_data:
     file_name.write(item+"\n")

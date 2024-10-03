@@ -1,0 +1,1 @@
+bin/lmplz -o 3 <../../corpus.txt >../../trained_models/kenlm_3.arpa
