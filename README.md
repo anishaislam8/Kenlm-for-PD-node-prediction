@@ -34,6 +34,7 @@ Resource: https://medium.com/tekraze/install-kenlm-binaries-on-ubuntu-language-m
 
 After installing the KenLM dependencies, you can create a KenLM model of order 3 (or your preferred order by replacing the value after the *-o* flag) using your corpus by running the following command from the build directory:
 - `bin/lmplz -o 3 <../../corpus.txt >../../trained_models/kenlm_3.arpa`
+
 This command will generate a KenLM 3-gram model trained on your corpus and save it in the *trained_models* directory as *kenlm_3.arpa*. We have also included a sample *.arpa* file in the same directory, trained on our dataset, named *kenlm_3_paths_all_not_padded.arpa*.
 
 ## Step 4: Create vocabulary
