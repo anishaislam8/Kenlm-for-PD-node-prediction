@@ -40,10 +40,12 @@ This command will generate a KenLM 3-gram model trained on your corpus and save 
 
 To evaluate the performance of our KenLM model, we first need to create a vocabulary file that represents all the unique tokens in our corpus. You can generate the vocabulary file by running the following script:
 - `python3 create_vocabulary.py`
+
 This script uses the trained model from step 3 and generates a vocabulary file in the *trained_models* directory. If needed, you can modify the model and vocabulary file names by editing lines 1 and 17 of the script. We have provided a sample vocab file generated from our corpus in the same directory titled *kenlm_all_paths_without_padding.vocab*.
 
 ## Step 5: Evaluate the KenLM model
 
 To evaluate the KenLM model's performance on the test hashes of the PD graphs in your test set, run the following command:
 - `python3 5.calculate_mrr.py`
+
 This script uses the test hashes of the PD graphs, the trained model (update line 78 of *5.calculate_mrr.py* with your model name), and the vocabulary file (update line 81 in *utils.py* with your vocab file name) to calculate the mean reciprocal rank (MRR) of the PD test graphs. The MRR values will be saved in a *mrr.txt* file after completion.
