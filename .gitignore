@@ -26,3 +26,4 @@ mrr_graph_value_v2.txt
 output.txt
 paths_all/
 test.txt
+train_test_hashes/*sample.txt
