@@ -58,7 +58,7 @@ To evaluate the KenLM model's performance on the test hashes of the PD graphs in
 - `mkdir output`
 - `python3 5.calculate_mrr.py trained_models/kenlm_3.arpa trained_models/kenlm_vocab.vocab database.db train_test_hashes/model_1/test_hashes_filtered.txt`
 
-This script uses the test hashes of the PD graphs, the trained model, and the vocabulary file to calculate the mean reciprocal rank (MRR) of the PD test graphs. The command looks like this: `python3 5.calculate_mrr.py <trained_model_location> <vocab_file_location> <database_location> <test_hashes_file_location>` The MRR values will be saved in a `mrr.txt` file after completion. And the detailed output for each node will be saved in the `output` directory where one file will be generated for each test hash.
+This script uses the test hashes of the PD graphs, the trained model, and the vocabulary file to calculate the mean reciprocal rank (MRR) of the PD test graphs. The command looks like this: `python3 5.calculate_mrr.py <trained_model_location> <vocab_file_location> <database_location> <test_hashes_file_location>`. You can also use our sample trained model and vocabulary, or choose any of the five test hashes from the `train_test_hashes` directory by updating the file paths in the command. The MRR values will be saved in a `mrr.txt` file after completion. And the detailed output for each node will be saved in the `output` directory where one file will be generated for each test hash.
 
 
 ## Optional: Run tests
