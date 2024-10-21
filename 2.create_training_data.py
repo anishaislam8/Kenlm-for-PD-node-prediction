@@ -1,10 +1,13 @@
 import os
+import sys
 
 folder_path = "paths_all"
 train_data = []
 
+train_hashes = sys.argv[1]
 
-with open("train_hashes.txt", "r") as train_hash_file:
+
+with open(train_hashes, "r") as train_hash_file:
     hashes = train_hash_file.readlines()
     for hash in hashes:
         hash = hash.strip()
@@ -19,6 +22,6 @@ with open("train_hashes.txt", "r") as train_hash_file:
 
 
 
-file_name = open('corpus.txt','a')
+file_name = open('trained_models/corpus.txt','a')
 for item in train_data:
     file_name.write(item+"\n")

@@ -1,4 +1,8 @@
-with open("trained_models/kenlm_3_paths_all_not_padded.arpa", "r", encoding="utf8") as f:
+import sys
+
+model_name = sys.argv[1]
+
+with open(model_name, "r", encoding="utf8") as f:
     lines = f.readlines()
     found_1_grams = False
 
@@ -14,5 +18,5 @@ with open("trained_models/kenlm_3_paths_all_not_padded.arpa", "r", encoding="utf
             arr = line.split('\t')
             if len(arr) > 1:
                 token = arr[1]
-                with open("trained_models/kenlm_all_paths_without_padding.vocab", "a") as f:
+                with open("trained_models/kenlm_vocab.vocab", "a") as f:
                     f.write(token+"\n")

@@ -72,24 +72,11 @@ def create_reverse_directed_graph_test(connections, all_objects):
     return graph
 
 
-def get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word, model_number):
+def get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word, vocab_file):
 
     max_heap_size = 10
     heap = []
-    vocab_file = None
-    if model_number == 0:
-        vocab_file = "trained_models/kenlm_all_paths_without_padding.vocab"
-    if model_number == 1:
-        vocab_file = "trained_models/model1/kenlm_all_paths_without_padding.vocab"
-    elif model_number == 2:
-        vocab_file = "trained_models/model2/kenlm_all_paths_without_padding.vocab"
-    elif model_number == 3:
-        vocab_file = "trained_models/model3/kenlm_all_paths_without_padding.vocab"
-    elif model_number == 4:
-        vocab_file = "trained_models/model4/kenlm_all_paths_without_padding.vocab"
-    elif model_number == 5:
-        vocab_file = "trained_models/model5/kenlm_all_paths_without_padding.vocab"
-
+    
     vocabulary = None
     with open(vocab_file, "r", encoding="utf8") as vocab_f:
         vocabulary = vocab_f.readlines()

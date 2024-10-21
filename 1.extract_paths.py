@@ -3,7 +3,11 @@ import json
 import sys
 sys.setrecursionlimit(1000000)
 
-conn = sqlite3.connect("database.db")
+
+train_hashes = sys.argv[1]
+database = sys.argv[2]
+
+conn = sqlite3.connect(database)
 cursor = conn.cursor()
 
 
@@ -40,7 +44,7 @@ def make_edge_map(nodes,edges):
         edge_map[a][b] = 1
     return edge_map
 
-with open("train_hashes.txt", "r") as f:
+with open(train_hashes, "r") as f:
     processed = 0
     lines = f.readlines()
     for line in lines:
@@ -94,7 +98,7 @@ with open("train_hashes.txt", "r") as f:
                 for i in range(len(path)):
                     path[i] = object_dict[reverse_node_dict[path[i]]]
 
-            with open("paths_all" + line + ".txt", "w") as f:
+            with open("paths_all/" + line + ".txt", "w") as f:
                 for path in all_generated_paths:
                     for i in range(len(path)):
                         path[i]= str(path[i])
@@ -105,7 +109,7 @@ with open("train_hashes.txt", "r") as f:
                     f.write("\n")
 
         else:
-            with open("paths_all" + line + ".txt", "w") as f:
+            with open("paths_all/" + line + ".txt", "w") as f:
                 f.write("No connections")
 
 

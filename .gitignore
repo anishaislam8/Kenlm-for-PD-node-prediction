@@ -19,3 +19,6 @@ graph*
 merge.py
 small_test.py
 mrr.py
+trained_models/
+database.db
+comparison_kenlm_order/

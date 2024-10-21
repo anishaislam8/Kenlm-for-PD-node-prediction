@@ -1,15 +1,23 @@
 import kenlm
 import json
 import sqlite3
+import sys
 
 from utils import *
 
-conn = sqlite3.connect("database.db")
+
+model_name = sys.argv[1]
+vocab_file = sys.argv[2]
+database = sys.argv[3]
+test_hashes = sys.argv[4]
+
+
+conn = sqlite3.connect(database)
 cursor = conn.cursor()
 
 def evaluate_kenlm_model(model):
     processed = 0
-    with open("test_hashes.txt", "r") as f:
+    with open(test_hashes, "r") as f:
         lines = f.readlines()
         for line in lines:
             
@@ -48,7 +56,7 @@ def evaluate_kenlm_model(model):
                     three_length_dfs(node, G_reversed, visited, current_path_for_this_node, all_paths_ending_with_this_node)
 
                     true_next_word = object_dict[node]
-                    rank = get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word, 0)
+                    rank = get_rank(all_paths_ending_with_this_node, model, object_dict, true_next_word, vocab_file)
 
 
                     # write to a file
@@ -75,7 +83,5 @@ def evaluate_kenlm_model(model):
 
             
 
-model = kenlm.Model('trained_models/kenlm_3_paths_all_not_padded.arpa')
+model = kenlm.Model(model_name)
 evaluate_kenlm_model(model)
-
-
