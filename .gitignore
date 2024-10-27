@@ -27,3 +27,4 @@ output.txt
 paths_all/
 test.txt
 train_test_hashes/*sample.txt
+test_on_one_graph.py
