@@ -86,3 +86,17 @@ We have provided sample tests for the path generation and heap stages. To run th
 
 - `python3 tests/test_extract_paths.py`
 - `python3 tests/test_heap.py`
+
+
+## Cite Our Work
+This work is part of our paper: "TriGraph: A Probabilistic Subgraph-Based Model for Visual Code Completion in Pure Data." If you use our code or data, please cite our work as follows:
+
+```
+@inproceedings{islam2025trigraph,
+  title={{TriGraph: A Probabilistic Subgraph-Based Model for Visual Code Completion in Pure Data}},
+  author = {Islam, Anisha and Hindle, Abram},
+  booktitle={2025 IEEE/ACM 22nd International Conference on Mining Software Repositories (MSR)},
+  year={2025},
+  organization={IEEE}
+}
+```
